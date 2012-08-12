@@ -1,12 +1,13 @@
 require File.dirname(__FILE__) + '/../lib/sickbeard'
-require 'fakeweb'
-
-FakeWeb.allow_net_connect = false
+require 'webmock/rspec'
+require 'vcr'
 
 RSpec.configure do |config|
   config.order = 'random'
+  config.extend VCR::RSpec::Macros
+end
 
-  config.before(:each) do
-    FakeWeb.clean_registry
-  end
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/cassettes'
+  c.hook_into :webmock
 end

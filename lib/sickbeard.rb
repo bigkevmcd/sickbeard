@@ -4,7 +4,10 @@ require 'json'
 require 'cgi'
 
 module SickBeard
+  # This class provides all the methods for using the SickBeard API.
   class Base
+
+    # @option options [String] :access_key_id ("") The user's AWS Access Key ID
     # @option options [String] :api_key ("") The SickBeard username for access.
     # @option options [String] :server ("") The server API endpoint.
     # @return [Object] the object.
@@ -18,11 +21,6 @@ module SickBeard
       @api_key = options[:api_key]
       raise ArgumentError, 'No :api_key provided' if options[:api_key].nil? || options[:api_key].empty?
       raise ArgumentError, 'No :server provided' if options[:server].nil? || options[:server].empty?
-    end
-
-    # Returns the SickBeard information
-    def sb
-      make_request('sb')
     end
 
 private

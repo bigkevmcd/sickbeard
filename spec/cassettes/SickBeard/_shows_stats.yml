@@ -1,0 +1,34 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows.stats
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Aug 2012 10:38:01 GMT
+      Content-Length:
+      - '183'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - CherryPy/3.2.0rc1
+    body:
+      encoding: US-ASCII
+      string: ! "{\n    \"data\": {\n        \"ep_downloaded\": 1653, \n        \"ep_total\":
+        7595, \n        \"shows_active\": 40, \n        \"shows_total\": 89\n    },
+        \n    \"message\": \"\", \n    \"result\": \"success\"\n}"
+    http_version: 
+  recorded_at: Sun, 12 Aug 2012 10:38:05 GMT
+recorded_with: VCR 2.2.4

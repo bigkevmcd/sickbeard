@@ -1,6 +1,6 @@
 # Sickbeard
 
-TODO: Write a gem description
+This provides a basic API for interacting with the SickBeard PVR.
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'sickbeard'
+
+    client = SickBeard::Base.new(server: 'http://example.com/', api_key: '1234568901')
+
+    puts SickBeard.shows_stats
+
 
 ## Contributing
 

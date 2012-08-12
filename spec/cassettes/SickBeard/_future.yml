@@ -1,0 +1,1047 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=future
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Aug 2012 10:26:34 GMT
+      Content-Length:
+      - '15515'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - CherryPy/3.2.0rc1
+    body:
+      encoding: US-ASCII
+      string: ! "{\n    \"data\": {\n        \"later\": [\n            {\n                \"airdate\":
+        \"2012-08-25\", \n                \"airs\": \"Saturday 7:00 PM\", \n                \"ep_name\":
+        \"Asylum Of The Daleks\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"BBC One\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 7,
+        \n                \"show_name\": \"Doctor Who (2005)\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 78804, \n                \"weekday\":
+        6\n            }, \n            {\n                \"airdate\": \"2012-09-11\",
+        \n                \"airs\": \"Tuesday 10:00 PM\", \n                \"ep_name\":
+        \"Sovereign\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 5, \n
+        \               \"show_name\": \"Sons of Anarchy\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 82696, \n                \"weekday\":
+        2\n            }, \n            {\n                \"airdate\": \"2012-09-13\",
+        \n                \"airs\": \"Tuesday 8:00 PM\", \n                \"ep_name\":
+        \"The New Rachel\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FOX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 4, \n
+        \               \"show_name\": \"Glee\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 83610, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-16\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"Season premiere\", \n                \"episode\":
+        1, \n                \"network\": \"HBO\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 3, \n
+        \               \"show_name\": \"Boardwalk Empire\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 84947, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-24\",
+        \n                \"airs\": \"Monday 10:00 PM\", \n                \"ep_name\":
+        \"After The Storm\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"HD\", \n                \"season\": 5, \n
+        \               \"show_name\": \"Castle (2009)\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 83462, \n                \"weekday\":
+        1\n            }, \n            {\n                \"airdate\": \"2012-09-24\",
+        \n                \"airs\": \"Monday 8:00 PM\", \n                \"ep_name\":
+        \"Farhampton\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 8, \n
+        \               \"show_name\": \"How I Met Your Mother\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 75760, \n                \"weekday\":
+        1\n            }, \n            {\n                \"airdate\": \"2012-09-25\",
+        \n                \"airs\": \"Tuesday 10:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 6, \n
+        \               \"show_name\": \"Private Practice\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 80542, \n                \"weekday\":
+        2\n            }, \n            {\n                \"airdate\": \"2012-09-26\",
+        \n                \"airs\": \"Friday 10:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        8, \n                \"network\": \"Comedy Central\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 16,
+        \n                \"show_name\": \"South Park\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 75897, \n                \"weekday\":
+        3\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Thursday 9:00 PM\", \n                \"ep_name\":
+        \"The Contingency\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 2, \n
+        \               \"show_name\": \"Person of Interest\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 248742, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Thursday 9:00 PM\", \n                \"ep_name\":
+        \"Going Going Gone\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 9, \n
+        \               \"show_name\": \"Grey's Anatomy\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 73762, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Thursday 8:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 6, \n
+        \               \"show_name\": \"The Big Bang Theory\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 80379, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Tuesday 8:00 PM\", \n                \"ep_name\":
+        \"Episode 1\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CTV\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 5, \n
+        \               \"show_name\": \"Flashpoint\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 82438, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-28\",
+        \n                \"airs\": \"Friday 9:00 PM\", \n                \"ep_name\":
+        \"Transilience Thought Unifier Model-11\", \n                \"ep_plot\":
+        \"\", \n                \"episode\": 1, \n                \"network\": \"FOX\",
+        \n                \"paused\": 0, \n                \"quality\": \"SD\", \n
+        \               \"season\": 5, \n                \"show_name\": \"Fringe\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        82066, \n                \"weekday\": 5\n            }, \n            {\n
+        \               \"airdate\": \"2012-09-30\", \n                \"airs\": \"Sunday
+        10:00 PM\", \n                \"ep_name\": \"The Smile\", \n                \"ep_plot\":
+        \"Brody has been elected to Congress. A woman named Roya comes to see him,
+        and asks him to steal a list of homeland targets from Estes's office safe.
+        Carrie is working with the CIA again because Fatima, an informant married
+        to a man working for Abu Nazir, tells Saul that she'll only speak to Carrie.
+        Estes goes to pick up Carrie at her sister's house, and then she's sent to
+        Cyprus, where she's prepped for a brief mission in Lebanon.\", \n                \"episode\":
+        1, \n                \"network\": \"Showtime\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 2,
+        \n                \"show_name\": \"Homeland\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 247897, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 4, \n
+        \               \"show_name\": \"The Good Wife\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 95451, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 8:00 PM\", \n                \"ep_name\":
+        \"Broken\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 2, \n
+        \               \"show_name\": \"Once Upon a Time (2011)\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 248835, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 20:00\", \n                \"ep_name\":
+        \"tba - begins Sept. 2012\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FOX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 24, \n
+        \               \"show_name\": \"The Simpsons\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 71663, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FOX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 11, \n
+        \               \"show_name\": \"Family Guy\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 75978, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-10-03\",
+        \n                \"airs\": \"Friday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"The CW\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 8,
+        \n                \"show_name\": \"Supernatural\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 78901, \n                \"weekday\":
+        3\n            }, \n            {\n                \"airdate\": \"2012-10-04\",
+        \n                \"airs\": \"Thursday 8:30 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"NBC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 7, \n
+        \               \"show_name\": \"30 Rock\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 79488, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-10-11\",
+        \n                \"airs\": \"Thursday 8:00 PM\", \n                \"ep_name\":
+        \"Growing Pains\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"The CW\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 4,
+        \n                \"show_name\": \"The Vampire Diaries\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 95491, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-10-14\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"AMC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 3, \n
+        \               \"show_name\": \"The Walking Dead\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 153021, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-10-19\",
+        \n                \"airs\": \"Thursday 8:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"NBC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 4, \n
+        \               \"show_name\": \"Community\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 94571, \n                \"weekday\":
+        5\n            }, \n            {\n                \"airdate\": \"2013-03-31\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"HBO\", \n                \"paused\": 0,
+        \n                \"quality\": \"HD\", \n                \"season\": 3, \n
+        \               \"show_name\": \"Game of Thrones\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 121361, \n                \"weekday\":
+        7\n            }\n        ], \n        \"missed\": [], \n        \"soon\":
+        [\n            {\n                \"airdate\": \"2012-08-13\", \n                \"airs\":
+        \"Monday 9:00 PM\", \n                \"ep_name\": \"There's Always a Downside\",
+        \n                \"ep_plot\": \"Pete and Claudia reunite with Hugo to track
+        down a deadly artifact at his nephew's prep school; Myka and Steve investigate
+        an artifact that is killing a musician in New Orleans.\", \n                \"episode\":
+        4, \n                \"network\": \"Syfy\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 4,
+        \n                \"show_name\": \"Warehouse 13\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 84676, \n                \"weekday\":
+        1\n            }\n        ], \n        \"today\": [\n            {\n                \"airdate\":
+        \"2012-08-12\", \n                \"airs\": \"Sunday 8:00 PM\", \n                \"ep_name\":
+        \"The French Connection Job\", \n                \"ep_plot\": \"The Leverage
+        team goes inside the world of culinary schools and celebrity chefs to bring
+        down a corrupt restaurateur who destroys lives in his pursuit of fame and
+        money.\", \n                \"episode\": 4, \n                \"network\":
+        \"TNT\", \n                \"paused\": 0, \n                \"quality\": \"HD\",
+        \n                \"season\": 5, \n                \"show_name\": \"Leverage\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        82339, \n                \"weekday\": 7\n            }, \n            {\n
+        \               \"airdate\": \"2012-08-12\", \n                \"airs\": \"Sunday
+        9:00 PM\", \n                \"ep_name\": \"Gone, Gone, Gone\", \n                \"ep_plot\":
+        \"Bill puts a spin on the rising vampire violence; Jason uncovers a mysterious
+        scroll.\", \n                \"episode\": 10, \n                \"network\":
+        \"HBO\", \n                \"paused\": 0, \n                \"quality\": \"SD\",
+        \n                \"season\": 5, \n                \"show_name\": \"True Blood\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        82283, \n                \"weekday\": 7\n            }, \n            {\n
+        \               \"airdate\": \"2012-08-12\", \n                \"airs\": \"Sunday
+        9:00 PM\", \n                \"ep_name\": \"The Price of Greatness\", \n                \"ep_plot\":
+        \"The 2nd Mass meets new faces, while Tom comes across his former mentor,
+        but it\\u2019s difficult to know whom to trust. Maggie realizes that Pope
+        may not be sticking with the group very long. Tector embraces his military
+        past.\", \n                \"episode\": 9, \n                \"network\":
+        \"TNT\", \n                \"paused\": 0, \n                \"quality\": \"HD\",
+        \n                \"season\": 2, \n                \"show_name\": \"Falling
+        Skies\", \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        205281, \n                \"weekday\": 7\n            }\n        ]\n    },
+        \n    \"message\": \"\", \n    \"result\": \"success\"\n}"
+    http_version: 
+  recorded_at: Sun, 12 Aug 2012 10:26:38 GMT
+- request:
+    method: get
+    uri: http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=future&type=missed%7Csoon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Aug 2012 10:59:47 GMT
+      Content-Length:
+      - '815'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - CherryPy/3.2.0rc1
+    body:
+      encoding: US-ASCII
+      string: ! "{\n    \"data\": {\n        \"missed\": [], \n        \"soon\": [\n
+        \           {\n                \"airdate\": \"2012-08-13\", \n                \"airs\":
+        \"Monday 9:00 PM\", \n                \"ep_name\": \"There's Always a Downside\",
+        \n                \"ep_plot\": \"Pete and Claudia reunite with Hugo to track
+        down a deadly artifact at his nephew's prep school; Myka and Steve investigate
+        an artifact that is killing a musician in New Orleans.\", \n                \"episode\":
+        4, \n                \"network\": \"Syfy\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 4,
+        \n                \"show_name\": \"Warehouse 13\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 84676, \n                \"weekday\":
+        1\n            }\n        ]\n    }, \n    \"message\": \"\", \n    \"result\":
+        \"success\"\n}"
+    http_version: 
+  recorded_at: Sun, 12 Aug 2012 10:59:52 GMT
+- request:
+    method: get
+    uri: http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=future&type=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Aug 2012 11:01:48 GMT
+      Content-Length:
+      - '15515'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - CherryPy/3.2.0rc1
+    body:
+      encoding: US-ASCII
+      string: ! "{\n    \"data\": {\n        \"later\": [\n            {\n                \"airdate\":
+        \"2012-08-25\", \n                \"airs\": \"Saturday 7:00 PM\", \n                \"ep_name\":
+        \"Asylum Of The Daleks\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"BBC One\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 7,
+        \n                \"show_name\": \"Doctor Who (2005)\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 78804, \n                \"weekday\":
+        6\n            }, \n            {\n                \"airdate\": \"2012-09-11\",
+        \n                \"airs\": \"Tuesday 10:00 PM\", \n                \"ep_name\":
+        \"Sovereign\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 5, \n
+        \               \"show_name\": \"Sons of Anarchy\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 82696, \n                \"weekday\":
+        2\n            }, \n            {\n                \"airdate\": \"2012-09-13\",
+        \n                \"airs\": \"Tuesday 8:00 PM\", \n                \"ep_name\":
+        \"The New Rachel\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FOX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 4, \n
+        \               \"show_name\": \"Glee\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 83610, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-16\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"Season premiere\", \n                \"episode\":
+        1, \n                \"network\": \"HBO\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 3, \n
+        \               \"show_name\": \"Boardwalk Empire\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 84947, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-24\",
+        \n                \"airs\": \"Monday 10:00 PM\", \n                \"ep_name\":
+        \"After The Storm\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"HD\", \n                \"season\": 5, \n
+        \               \"show_name\": \"Castle (2009)\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 83462, \n                \"weekday\":
+        1\n            }, \n            {\n                \"airdate\": \"2012-09-24\",
+        \n                \"airs\": \"Monday 8:00 PM\", \n                \"ep_name\":
+        \"Farhampton\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 8, \n
+        \               \"show_name\": \"How I Met Your Mother\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 75760, \n                \"weekday\":
+        1\n            }, \n            {\n                \"airdate\": \"2012-09-25\",
+        \n                \"airs\": \"Tuesday 10:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 6, \n
+        \               \"show_name\": \"Private Practice\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 80542, \n                \"weekday\":
+        2\n            }, \n            {\n                \"airdate\": \"2012-09-26\",
+        \n                \"airs\": \"Friday 10:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        8, \n                \"network\": \"Comedy Central\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 16,
+        \n                \"show_name\": \"South Park\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 75897, \n                \"weekday\":
+        3\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Thursday 9:00 PM\", \n                \"ep_name\":
+        \"The Contingency\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 2, \n
+        \               \"show_name\": \"Person of Interest\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 248742, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Thursday 9:00 PM\", \n                \"ep_name\":
+        \"Going Going Gone\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 9, \n
+        \               \"show_name\": \"Grey's Anatomy\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 73762, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Thursday 8:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 6, \n
+        \               \"show_name\": \"The Big Bang Theory\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 80379, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Tuesday 8:00 PM\", \n                \"ep_name\":
+        \"Episode 1\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CTV\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 5, \n
+        \               \"show_name\": \"Flashpoint\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 82438, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-28\",
+        \n                \"airs\": \"Friday 9:00 PM\", \n                \"ep_name\":
+        \"Transilience Thought Unifier Model-11\", \n                \"ep_plot\":
+        \"\", \n                \"episode\": 1, \n                \"network\": \"FOX\",
+        \n                \"paused\": 0, \n                \"quality\": \"SD\", \n
+        \               \"season\": 5, \n                \"show_name\": \"Fringe\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        82066, \n                \"weekday\": 5\n            }, \n            {\n
+        \               \"airdate\": \"2012-09-30\", \n                \"airs\": \"Sunday
+        10:00 PM\", \n                \"ep_name\": \"The Smile\", \n                \"ep_plot\":
+        \"Brody has been elected to Congress. A woman named Roya comes to see him,
+        and asks him to steal a list of homeland targets from Estes's office safe.
+        Carrie is working with the CIA again because Fatima, an informant married
+        to a man working for Abu Nazir, tells Saul that she'll only speak to Carrie.
+        Estes goes to pick up Carrie at her sister's house, and then she's sent to
+        Cyprus, where she's prepped for a brief mission in Lebanon.\", \n                \"episode\":
+        1, \n                \"network\": \"Showtime\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 2,
+        \n                \"show_name\": \"Homeland\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 247897, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 4, \n
+        \               \"show_name\": \"The Good Wife\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 95451, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 8:00 PM\", \n                \"ep_name\":
+        \"Broken\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 2, \n
+        \               \"show_name\": \"Once Upon a Time (2011)\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 248835, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 20:00\", \n                \"ep_name\":
+        \"tba - begins Sept. 2012\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FOX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 24, \n
+        \               \"show_name\": \"The Simpsons\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 71663, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FOX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 11, \n
+        \               \"show_name\": \"Family Guy\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 75978, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-10-03\",
+        \n                \"airs\": \"Friday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"The CW\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 8,
+        \n                \"show_name\": \"Supernatural\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 78901, \n                \"weekday\":
+        3\n            }, \n            {\n                \"airdate\": \"2012-10-04\",
+        \n                \"airs\": \"Thursday 8:30 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"NBC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 7, \n
+        \               \"show_name\": \"30 Rock\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 79488, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-10-11\",
+        \n                \"airs\": \"Thursday 8:00 PM\", \n                \"ep_name\":
+        \"Growing Pains\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"The CW\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 4,
+        \n                \"show_name\": \"The Vampire Diaries\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 95491, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-10-14\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"AMC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 3, \n
+        \               \"show_name\": \"The Walking Dead\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 153021, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-10-19\",
+        \n                \"airs\": \"Thursday 8:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"NBC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 4, \n
+        \               \"show_name\": \"Community\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 94571, \n                \"weekday\":
+        5\n            }, \n            {\n                \"airdate\": \"2013-03-31\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"HBO\", \n                \"paused\": 0,
+        \n                \"quality\": \"HD\", \n                \"season\": 3, \n
+        \               \"show_name\": \"Game of Thrones\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 121361, \n                \"weekday\":
+        7\n            }\n        ], \n        \"missed\": [], \n        \"soon\":
+        [\n            {\n                \"airdate\": \"2012-08-13\", \n                \"airs\":
+        \"Monday 9:00 PM\", \n                \"ep_name\": \"There's Always a Downside\",
+        \n                \"ep_plot\": \"Pete and Claudia reunite with Hugo to track
+        down a deadly artifact at his nephew's prep school; Myka and Steve investigate
+        an artifact that is killing a musician in New Orleans.\", \n                \"episode\":
+        4, \n                \"network\": \"Syfy\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 4,
+        \n                \"show_name\": \"Warehouse 13\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 84676, \n                \"weekday\":
+        1\n            }\n        ], \n        \"today\": [\n            {\n                \"airdate\":
+        \"2012-08-12\", \n                \"airs\": \"Sunday 8:00 PM\", \n                \"ep_name\":
+        \"The French Connection Job\", \n                \"ep_plot\": \"The Leverage
+        team goes inside the world of culinary schools and celebrity chefs to bring
+        down a corrupt restaurateur who destroys lives in his pursuit of fame and
+        money.\", \n                \"episode\": 4, \n                \"network\":
+        \"TNT\", \n                \"paused\": 0, \n                \"quality\": \"HD\",
+        \n                \"season\": 5, \n                \"show_name\": \"Leverage\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        82339, \n                \"weekday\": 7\n            }, \n            {\n
+        \               \"airdate\": \"2012-08-12\", \n                \"airs\": \"Sunday
+        9:00 PM\", \n                \"ep_name\": \"Gone, Gone, Gone\", \n                \"ep_plot\":
+        \"Bill puts a spin on the rising vampire violence; Jason uncovers a mysterious
+        scroll.\", \n                \"episode\": 10, \n                \"network\":
+        \"HBO\", \n                \"paused\": 0, \n                \"quality\": \"SD\",
+        \n                \"season\": 5, \n                \"show_name\": \"True Blood\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        82283, \n                \"weekday\": 7\n            }, \n            {\n
+        \               \"airdate\": \"2012-08-12\", \n                \"airs\": \"Sunday
+        9:00 PM\", \n                \"ep_name\": \"The Price of Greatness\", \n                \"ep_plot\":
+        \"The 2nd Mass meets new faces, while Tom comes across his former mentor,
+        but it\\u2019s difficult to know whom to trust. Maggie realizes that Pope
+        may not be sticking with the group very long. Tector embraces his military
+        past.\", \n                \"episode\": 9, \n                \"network\":
+        \"TNT\", \n                \"paused\": 0, \n                \"quality\": \"HD\",
+        \n                \"season\": 2, \n                \"show_name\": \"Falling
+        Skies\", \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        205281, \n                \"weekday\": 7\n            }\n        ]\n    },
+        \n    \"message\": \"\", \n    \"result\": \"success\"\n}"
+    http_version: 
+  recorded_at: Sun, 12 Aug 2012 11:01:52 GMT
+- request:
+    method: get
+    uri: http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=future&sort&type=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Aug 2012 11:08:52 GMT
+      Content-Length:
+      - '15515'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - CherryPy/3.2.0rc1
+    body:
+      encoding: US-ASCII
+      string: ! "{\n    \"data\": {\n        \"later\": [\n            {\n                \"airdate\":
+        \"2012-08-25\", \n                \"airs\": \"Saturday 7:00 PM\", \n                \"ep_name\":
+        \"Asylum Of The Daleks\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"BBC One\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 7,
+        \n                \"show_name\": \"Doctor Who (2005)\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 78804, \n                \"weekday\":
+        6\n            }, \n            {\n                \"airdate\": \"2012-09-11\",
+        \n                \"airs\": \"Tuesday 10:00 PM\", \n                \"ep_name\":
+        \"Sovereign\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 5, \n
+        \               \"show_name\": \"Sons of Anarchy\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 82696, \n                \"weekday\":
+        2\n            }, \n            {\n                \"airdate\": \"2012-09-13\",
+        \n                \"airs\": \"Tuesday 8:00 PM\", \n                \"ep_name\":
+        \"The New Rachel\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FOX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 4, \n
+        \               \"show_name\": \"Glee\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 83610, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-16\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"Season premiere\", \n                \"episode\":
+        1, \n                \"network\": \"HBO\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 3, \n
+        \               \"show_name\": \"Boardwalk Empire\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 84947, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-24\",
+        \n                \"airs\": \"Monday 10:00 PM\", \n                \"ep_name\":
+        \"After The Storm\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"HD\", \n                \"season\": 5, \n
+        \               \"show_name\": \"Castle (2009)\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 83462, \n                \"weekday\":
+        1\n            }, \n            {\n                \"airdate\": \"2012-09-24\",
+        \n                \"airs\": \"Monday 8:00 PM\", \n                \"ep_name\":
+        \"Farhampton\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 8, \n
+        \               \"show_name\": \"How I Met Your Mother\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 75760, \n                \"weekday\":
+        1\n            }, \n            {\n                \"airdate\": \"2012-09-25\",
+        \n                \"airs\": \"Tuesday 10:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 6, \n
+        \               \"show_name\": \"Private Practice\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 80542, \n                \"weekday\":
+        2\n            }, \n            {\n                \"airdate\": \"2012-09-26\",
+        \n                \"airs\": \"Friday 10:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        8, \n                \"network\": \"Comedy Central\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 16,
+        \n                \"show_name\": \"South Park\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 75897, \n                \"weekday\":
+        3\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Thursday 9:00 PM\", \n                \"ep_name\":
+        \"The Contingency\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 2, \n
+        \               \"show_name\": \"Person of Interest\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 248742, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Thursday 9:00 PM\", \n                \"ep_name\":
+        \"Going Going Gone\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 9, \n
+        \               \"show_name\": \"Grey's Anatomy\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 73762, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Thursday 8:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 6, \n
+        \               \"show_name\": \"The Big Bang Theory\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 80379, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Tuesday 8:00 PM\", \n                \"ep_name\":
+        \"Episode 1\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CTV\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 5, \n
+        \               \"show_name\": \"Flashpoint\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 82438, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-28\",
+        \n                \"airs\": \"Friday 9:00 PM\", \n                \"ep_name\":
+        \"Transilience Thought Unifier Model-11\", \n                \"ep_plot\":
+        \"\", \n                \"episode\": 1, \n                \"network\": \"FOX\",
+        \n                \"paused\": 0, \n                \"quality\": \"SD\", \n
+        \               \"season\": 5, \n                \"show_name\": \"Fringe\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        82066, \n                \"weekday\": 5\n            }, \n            {\n
+        \               \"airdate\": \"2012-09-30\", \n                \"airs\": \"Sunday
+        10:00 PM\", \n                \"ep_name\": \"The Smile\", \n                \"ep_plot\":
+        \"Brody has been elected to Congress. A woman named Roya comes to see him,
+        and asks him to steal a list of homeland targets from Estes's office safe.
+        Carrie is working with the CIA again because Fatima, an informant married
+        to a man working for Abu Nazir, tells Saul that she'll only speak to Carrie.
+        Estes goes to pick up Carrie at her sister's house, and then she's sent to
+        Cyprus, where she's prepped for a brief mission in Lebanon.\", \n                \"episode\":
+        1, \n                \"network\": \"Showtime\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 2,
+        \n                \"show_name\": \"Homeland\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 247897, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 4, \n
+        \               \"show_name\": \"The Good Wife\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 95451, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 8:00 PM\", \n                \"ep_name\":
+        \"Broken\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 2, \n
+        \               \"show_name\": \"Once Upon a Time (2011)\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 248835, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 20:00\", \n                \"ep_name\":
+        \"tba - begins Sept. 2012\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FOX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 24, \n
+        \               \"show_name\": \"The Simpsons\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 71663, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FOX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 11, \n
+        \               \"show_name\": \"Family Guy\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 75978, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-10-03\",
+        \n                \"airs\": \"Friday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"The CW\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 8,
+        \n                \"show_name\": \"Supernatural\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 78901, \n                \"weekday\":
+        3\n            }, \n            {\n                \"airdate\": \"2012-10-04\",
+        \n                \"airs\": \"Thursday 8:30 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"NBC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 7, \n
+        \               \"show_name\": \"30 Rock\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 79488, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-10-11\",
+        \n                \"airs\": \"Thursday 8:00 PM\", \n                \"ep_name\":
+        \"Growing Pains\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"The CW\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 4,
+        \n                \"show_name\": \"The Vampire Diaries\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 95491, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-10-14\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"AMC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 3, \n
+        \               \"show_name\": \"The Walking Dead\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 153021, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-10-19\",
+        \n                \"airs\": \"Thursday 8:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"NBC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 4, \n
+        \               \"show_name\": \"Community\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 94571, \n                \"weekday\":
+        5\n            }, \n            {\n                \"airdate\": \"2013-03-31\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"HBO\", \n                \"paused\": 0,
+        \n                \"quality\": \"HD\", \n                \"season\": 3, \n
+        \               \"show_name\": \"Game of Thrones\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 121361, \n                \"weekday\":
+        7\n            }\n        ], \n        \"missed\": [], \n        \"soon\":
+        [\n            {\n                \"airdate\": \"2012-08-13\", \n                \"airs\":
+        \"Monday 9:00 PM\", \n                \"ep_name\": \"There's Always a Downside\",
+        \n                \"ep_plot\": \"Pete and Claudia reunite with Hugo to track
+        down a deadly artifact at his nephew's prep school; Myka and Steve investigate
+        an artifact that is killing a musician in New Orleans.\", \n                \"episode\":
+        4, \n                \"network\": \"Syfy\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 4,
+        \n                \"show_name\": \"Warehouse 13\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 84676, \n                \"weekday\":
+        1\n            }\n        ], \n        \"today\": [\n            {\n                \"airdate\":
+        \"2012-08-12\", \n                \"airs\": \"Sunday 8:00 PM\", \n                \"ep_name\":
+        \"The French Connection Job\", \n                \"ep_plot\": \"The Leverage
+        team goes inside the world of culinary schools and celebrity chefs to bring
+        down a corrupt restaurateur who destroys lives in his pursuit of fame and
+        money.\", \n                \"episode\": 4, \n                \"network\":
+        \"TNT\", \n                \"paused\": 0, \n                \"quality\": \"HD\",
+        \n                \"season\": 5, \n                \"show_name\": \"Leverage\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        82339, \n                \"weekday\": 7\n            }, \n            {\n
+        \               \"airdate\": \"2012-08-12\", \n                \"airs\": \"Sunday
+        9:00 PM\", \n                \"ep_name\": \"Gone, Gone, Gone\", \n                \"ep_plot\":
+        \"Bill puts a spin on the rising vampire violence; Jason uncovers a mysterious
+        scroll.\", \n                \"episode\": 10, \n                \"network\":
+        \"HBO\", \n                \"paused\": 0, \n                \"quality\": \"SD\",
+        \n                \"season\": 5, \n                \"show_name\": \"True Blood\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        82283, \n                \"weekday\": 7\n            }, \n            {\n
+        \               \"airdate\": \"2012-08-12\", \n                \"airs\": \"Sunday
+        9:00 PM\", \n                \"ep_name\": \"The Price of Greatness\", \n                \"ep_plot\":
+        \"The 2nd Mass meets new faces, while Tom comes across his former mentor,
+        but it\\u2019s difficult to know whom to trust. Maggie realizes that Pope
+        may not be sticking with the group very long. Tector embraces his military
+        past.\", \n                \"episode\": 9, \n                \"network\":
+        \"TNT\", \n                \"paused\": 0, \n                \"quality\": \"HD\",
+        \n                \"season\": 2, \n                \"show_name\": \"Falling
+        Skies\", \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        205281, \n                \"weekday\": 7\n            }\n        ]\n    },
+        \n    \"message\": \"\", \n    \"result\": \"success\"\n}"
+    http_version: 
+  recorded_at: Sun, 12 Aug 2012 11:08:56 GMT
+- request:
+    method: get
+    uri: http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=future&sort=network&type=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Aug 2012 11:08:55 GMT
+      Content-Length:
+      - '15515'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - CherryPy/3.2.0rc1
+    body:
+      encoding: US-ASCII
+      string: ! "{\n    \"data\": {\n        \"later\": [\n            {\n                \"airdate\":
+        \"2012-09-25\", \n                \"airs\": \"Tuesday 10:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 6, \n
+        \               \"show_name\": \"Private Practice\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 80542, \n                \"weekday\":
+        2\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Thursday 9:00 PM\", \n                \"ep_name\":
+        \"Going Going Gone\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 9, \n
+        \               \"show_name\": \"Grey's Anatomy\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 73762, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 8:00 PM\", \n                \"ep_name\":
+        \"Broken\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 2, \n
+        \               \"show_name\": \"Once Upon a Time (2011)\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 248835, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-24\",
+        \n                \"airs\": \"Monday 10:00 PM\", \n                \"ep_name\":
+        \"After The Storm\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"ABC\", \n                \"paused\": 0,
+        \n                \"quality\": \"HD\", \n                \"season\": 5, \n
+        \               \"show_name\": \"Castle (2009)\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 83462, \n                \"weekday\":
+        1\n            }, \n            {\n                \"airdate\": \"2012-10-14\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"AMC\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 3, \n
+        \               \"show_name\": \"The Walking Dead\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 153021, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-08-25\",
+        \n                \"airs\": \"Saturday 7:00 PM\", \n                \"ep_name\":
+        \"Asylum Of The Daleks\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"BBC One\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 7,
+        \n                \"show_name\": \"Doctor Who (2005)\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 78804, \n                \"weekday\":
+        6\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Thursday 9:00 PM\", \n                \"ep_name\":
+        \"The Contingency\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 2, \n
+        \               \"show_name\": \"Person of Interest\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 248742, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Thursday 8:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 6, \n
+        \               \"show_name\": \"The Big Bang Theory\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 80379, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-30\",
+        \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 4, \n
+        \               \"show_name\": \"The Good Wife\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 95451, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-09-24\",
+        \n                \"airs\": \"Monday 8:00 PM\", \n                \"ep_name\":
+        \"Farhampton\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CBS\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 8, \n
+        \               \"show_name\": \"How I Met Your Mother\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 75760, \n                \"weekday\":
+        1\n            }, \n            {\n                \"airdate\": \"2012-09-27\",
+        \n                \"airs\": \"Tuesday 8:00 PM\", \n                \"ep_name\":
+        \"Episode 1\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"CTV\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 5, \n
+        \               \"show_name\": \"Flashpoint\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 82438, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-26\",
+        \n                \"airs\": \"Friday 10:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        8, \n                \"network\": \"Comedy Central\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 16,
+        \n                \"show_name\": \"South Park\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 75897, \n                \"weekday\":
+        3\n            }, \n            {\n                \"airdate\": \"2012-09-13\",
+        \n                \"airs\": \"Tuesday 8:00 PM\", \n                \"ep_name\":
+        \"The New Rachel\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"FOX\", \n                \"paused\": 0,
+        \n                \"quality\": \"SD\", \n                \"season\": 4, \n
+        \               \"show_name\": \"Glee\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 83610, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-09-28\",
+        \n                \"airs\": \"Friday 9:00 PM\", \n                \"ep_name\":
+        \"Transilience Thought Unifier Model-11\", \n                \"ep_plot\":
+        \"\", \n                \"episode\": 1, \n                \"network\": \"FOX\",
+        \n                \"paused\": 0, \n                \"quality\": \"SD\", \n
+        \               \"season\": 5, \n                \"show_name\": \"Fringe\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        82066, \n                \"weekday\": 5\n            }, \n            {\n
+        \               \"airdate\": \"2012-09-30\", \n                \"airs\": \"Sunday
+        20:00\", \n                \"ep_name\": \"tba - begins Sept. 2012\", \n                \"ep_plot\":
+        \"\", \n                \"episode\": 1, \n                \"network\": \"FOX\",
+        \n                \"paused\": 0, \n                \"quality\": \"SD\", \n
+        \               \"season\": 24, \n                \"show_name\": \"The Simpsons\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        71663, \n                \"weekday\": 7\n            }, \n            {\n
+        \               \"airdate\": \"2012-09-30\", \n                \"airs\": \"Sunday
+        9:00 PM\", \n                \"ep_name\": \"TBA\", \n                \"ep_plot\":
+        \"\", \n                \"episode\": 1, \n                \"network\": \"FOX\",
+        \n                \"paused\": 0, \n                \"quality\": \"SD\", \n
+        \               \"season\": 11, \n                \"show_name\": \"Family
+        Guy\", \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        75978, \n                \"weekday\": 7\n            }, \n            {\n
+        \               \"airdate\": \"2012-09-11\", \n                \"airs\": \"Tuesday
+        10:00 PM\", \n                \"ep_name\": \"Sovereign\", \n                \"ep_plot\":
+        \"\", \n                \"episode\": 1, \n                \"network\": \"FX\",
+        \n                \"paused\": 0, \n                \"quality\": \"SD\", \n
+        \               \"season\": 5, \n                \"show_name\": \"Sons of
+        Anarchy\", \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        82696, \n                \"weekday\": 2\n            }, \n            {\n
+        \               \"airdate\": \"2012-09-16\", \n                \"airs\": \"Sunday
+        9:00 PM\", \n                \"ep_name\": \"TBA\", \n                \"ep_plot\":
+        \"Season premiere\", \n                \"episode\": 1, \n                \"network\":
+        \"HBO\", \n                \"paused\": 0, \n                \"quality\": \"SD\",
+        \n                \"season\": 3, \n                \"show_name\": \"Boardwalk
+        Empire\", \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        84947, \n                \"weekday\": 7\n            }, \n            {\n
+        \               \"airdate\": \"2013-03-31\", \n                \"airs\": \"Sunday
+        9:00 PM\", \n                \"ep_name\": \"TBA\", \n                \"ep_plot\":
+        \"\", \n                \"episode\": 1, \n                \"network\": \"HBO\",
+        \n                \"paused\": 0, \n                \"quality\": \"HD\", \n
+        \               \"season\": 3, \n                \"show_name\": \"Game of
+        Thrones\", \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        121361, \n                \"weekday\": 7\n            }, \n            {\n
+        \               \"airdate\": \"2012-10-04\", \n                \"airs\": \"Thursday
+        8:30 PM\", \n                \"ep_name\": \"TBA\", \n                \"ep_plot\":
+        \"\", \n                \"episode\": 1, \n                \"network\": \"NBC\",
+        \n                \"paused\": 0, \n                \"quality\": \"SD\", \n
+        \               \"season\": 7, \n                \"show_name\": \"30 Rock\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        79488, \n                \"weekday\": 4\n            }, \n            {\n
+        \               \"airdate\": \"2012-10-19\", \n                \"airs\": \"Thursday
+        8:00 PM\", \n                \"ep_name\": \"TBA\", \n                \"ep_plot\":
+        \"\", \n                \"episode\": 1, \n                \"network\": \"NBC\",
+        \n                \"paused\": 0, \n                \"quality\": \"SD\", \n
+        \               \"season\": 4, \n                \"show_name\": \"Community\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        94571, \n                \"weekday\": 5\n            }, \n            {\n
+        \               \"airdate\": \"2012-09-30\", \n                \"airs\": \"Sunday
+        10:00 PM\", \n                \"ep_name\": \"The Smile\", \n                \"ep_plot\":
+        \"Brody has been elected to Congress. A woman named Roya comes to see him,
+        and asks him to steal a list of homeland targets from Estes's office safe.
+        Carrie is working with the CIA again because Fatima, an informant married
+        to a man working for Abu Nazir, tells Saul that she'll only speak to Carrie.
+        Estes goes to pick up Carrie at her sister's house, and then she's sent to
+        Cyprus, where she's prepped for a brief mission in Lebanon.\", \n                \"episode\":
+        1, \n                \"network\": \"Showtime\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 2,
+        \n                \"show_name\": \"Homeland\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 247897, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-10-11\",
+        \n                \"airs\": \"Thursday 8:00 PM\", \n                \"ep_name\":
+        \"Growing Pains\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"The CW\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 4,
+        \n                \"show_name\": \"The Vampire Diaries\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 95491, \n                \"weekday\":
+        4\n            }, \n            {\n                \"airdate\": \"2012-10-03\",
+        \n                \"airs\": \"Friday 9:00 PM\", \n                \"ep_name\":
+        \"TBA\", \n                \"ep_plot\": \"\", \n                \"episode\":
+        1, \n                \"network\": \"The CW\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 8,
+        \n                \"show_name\": \"Supernatural\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 78901, \n                \"weekday\":
+        3\n            }\n        ], \n        \"missed\": [], \n        \"soon\":
+        [\n            {\n                \"airdate\": \"2012-08-13\", \n                \"airs\":
+        \"Monday 9:00 PM\", \n                \"ep_name\": \"There's Always a Downside\",
+        \n                \"ep_plot\": \"Pete and Claudia reunite with Hugo to track
+        down a deadly artifact at his nephew's prep school; Myka and Steve investigate
+        an artifact that is killing a musician in New Orleans.\", \n                \"episode\":
+        4, \n                \"network\": \"Syfy\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 4,
+        \n                \"show_name\": \"Warehouse 13\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 84676, \n                \"weekday\":
+        1\n            }\n        ], \n        \"today\": [\n            {\n                \"airdate\":
+        \"2012-08-12\", \n                \"airs\": \"Sunday 9:00 PM\", \n                \"ep_name\":
+        \"Gone, Gone, Gone\", \n                \"ep_plot\": \"Bill puts a spin on
+        the rising vampire violence; Jason uncovers a mysterious scroll.\", \n                \"episode\":
+        10, \n                \"network\": \"HBO\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 5,
+        \n                \"show_name\": \"True Blood\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 82283, \n                \"weekday\":
+        7\n            }, \n            {\n                \"airdate\": \"2012-08-12\",
+        \n                \"airs\": \"Sunday 8:00 PM\", \n                \"ep_name\":
+        \"The French Connection Job\", \n                \"ep_plot\": \"The Leverage
+        team goes inside the world of culinary schools and celebrity chefs to bring
+        down a corrupt restaurateur who destroys lives in his pursuit of fame and
+        money.\", \n                \"episode\": 4, \n                \"network\":
+        \"TNT\", \n                \"paused\": 0, \n                \"quality\": \"HD\",
+        \n                \"season\": 5, \n                \"show_name\": \"Leverage\",
+        \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        82339, \n                \"weekday\": 7\n            }, \n            {\n
+        \               \"airdate\": \"2012-08-12\", \n                \"airs\": \"Sunday
+        9:00 PM\", \n                \"ep_name\": \"The Price of Greatness\", \n                \"ep_plot\":
+        \"The 2nd Mass meets new faces, while Tom comes across his former mentor,
+        but it\\u2019s difficult to know whom to trust. Maggie realizes that Pope
+        may not be sticking with the group very long. Tector embraces his military
+        past.\", \n                \"episode\": 9, \n                \"network\":
+        \"TNT\", \n                \"paused\": 0, \n                \"quality\": \"HD\",
+        \n                \"season\": 2, \n                \"show_name\": \"Falling
+        Skies\", \n                \"show_status\": \"Continuing\", \n                \"tvdbid\":
+        205281, \n                \"weekday\": 7\n            }\n        ]\n    },
+        \n    \"message\": \"\", \n    \"result\": \"success\"\n}"
+    http_version: 
+  recorded_at: Sun, 12 Aug 2012 11:08:58 GMT
+- request:
+    method: get
+    uri: http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=future&sort&type=missed%7Csoon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Aug 2012 11:08:57 GMT
+      Content-Length:
+      - '815'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - CherryPy/3.2.0rc1
+    body:
+      encoding: US-ASCII
+      string: ! "{\n    \"data\": {\n        \"missed\": [], \n        \"soon\": [\n
+        \           {\n                \"airdate\": \"2012-08-13\", \n                \"airs\":
+        \"Monday 9:00 PM\", \n                \"ep_name\": \"There's Always a Downside\",
+        \n                \"ep_plot\": \"Pete and Claudia reunite with Hugo to track
+        down a deadly artifact at his nephew's prep school; Myka and Steve investigate
+        an artifact that is killing a musician in New Orleans.\", \n                \"episode\":
+        4, \n                \"network\": \"Syfy\", \n                \"paused\":
+        0, \n                \"quality\": \"SD\", \n                \"season\": 4,
+        \n                \"show_name\": \"Warehouse 13\", \n                \"show_status\":
+        \"Continuing\", \n                \"tvdbid\": 84676, \n                \"weekday\":
+        1\n            }\n        ]\n    }, \n    \"message\": \"\", \n    \"result\":
+        \"success\"\n}"
+    http_version: 
+  recorded_at: Sun, 12 Aug 2012 11:08:59 GMT
+recorded_with: VCR 2.2.4
