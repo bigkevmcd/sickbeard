@@ -4,8 +4,8 @@ require File.expand_path('../lib/sickbeard/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Kevin McDermott"]
   gem.email         = ["bigkevmcd@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{SickBeard API client}
+  gem.summary       = %q{Provides access to SickBeard http://www.sickbeard.com/ .}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
