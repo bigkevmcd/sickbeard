@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows
+    uri: http://lothlorien.home:8081/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows
     body:
       encoding: US-ASCII
       string: ''
@@ -596,7 +596,7 @@ http_interactions:
   recorded_at: Sun, 12 Aug 2012 11:52:03 GMT
 - request:
     method: get
-    uri: http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows&sort
+    uri: http://lothlorien.home:8081/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows&sort
     body:
       encoding: US-ASCII
       string: ''
@@ -1190,7 +1190,7 @@ http_interactions:
   recorded_at: Sun, 12 Aug 2012 11:54:52 GMT
 - request:
     method: get
-    uri: http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows&sort=name
+    uri: http://lothlorien.home:8081/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows&sort=name
     body:
       encoding: US-ASCII
       string: ''
@@ -1757,4 +1757,1167 @@ http_interactions:
         \"success\"\n}"
     http_version: 
   recorded_at: Sun, 12 Aug 2012 11:54:54 GMT
+- request:
+    method: get
+    uri: http://lothlorien.home:8081/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows&sort
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Aug 2012 20:43:03 GMT
+      Content-Length:
+      - '41879'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - CherryPy/3.2.0rc1
+    body:
+      encoding: US-ASCII
+      string: ! "{\n    \"data\": {\n        \"70522\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"SciFi\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Farscape\",
+        \n            \"status\": \"Ended\", \n            \"tvrage_id\": 3519, \n
+        \           \"tvrage_name\": \"Farscape\"\n        }, \n        \"70533\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"ABC\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Twin Peaks\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        6450, \n            \"tvrage_name\": \"Twin Peaks\"\n        }, \n        \"70726\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"Syndicated\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Babylon 5\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        2693, \n            \"tvrage_name\": \"Babylon 5\"\n        }, \n        \"71470\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"Syndicated\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Star Trek: The Next Generation\", \n            \"status\": \"Ended\", \n
+        \           \"tvrage_id\": 5337, \n            \"tvrage_name\": \"Star Trek:
+        The Next Generation\"\n        }, \n        \"71637\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"The Wild
+        Wild West\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        6294, \n            \"tvrage_name\": \"The Wild Wild West\"\n        }, \n
+        \       \"71663\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"FOX\", \n
+        \           \"next_ep_airdate\": \"2012-09-30\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"The Simpsons\",
+        \n            \"status\": \"Continuing\", \n            \"tvrage_id\": 6190,
+        \n            \"tvrage_name\": \"The Simpsons\"\n        }, \n        \"72023\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"HBO\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Deadwood\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        3267, \n            \"tvrage_name\": \"Deadwood\"\n        }, \n        \"72158\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"The CW\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"One Tree Hill\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        4724, \n            \"tvrage_name\": \"One Tree Hill\"\n        }, \n        \"72218\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"The CW\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Smallville\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        5227, \n            \"tvrage_name\": \"Smallville\"\n        }, \n        \"72224\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"SciFi\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"The Outer Limits (1995)\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        6069, \n            \"tvrage_name\": \"The Outer Limits (1995)\"\n        },
+        \n        \"72716\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"BBC Two\",
+        \n            \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"QI\", \n            \"status\": \"Continuing\",
+        \n            \"tvrage_id\": 4920, \n            \"tvrage_name\": \"QI\"\n
+        \       }, \n        \"73545\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"SciFi\",
+        \n            \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"Battlestar Galactica (2003)\", \n            \"status\":
+        \"Ended\", \n            \"tvrage_id\": 2730, \n            \"tvrage_name\":
+        \"Battlestar Galactica\"\n        }, \n        \"73696\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"CSI:
+        NY\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        3185, \n            \"tvrage_name\": \"CSI: NY\"\n        }, \n        \"73739\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"ABC\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Lost\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        4284, \n            \"tvrage_name\": \"Lost\"\n        }, \n        \"73762\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"ABC\", \n            \"next_ep_airdate\":
+        \"2012-09-27\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"Grey's Anatomy\", \n            \"status\":
+        \"Continuing\", \n            \"tvrage_id\": 3741, \n            \"tvrage_name\":
+        \"Grey's Anatomy\"\n        }, \n        \"73800\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Desperate
+        Housewives\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        3294, \n            \"tvrage_name\": \"Desperate Housewives\"\n        },
+        \n        \"74523\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"NBC\", \n
+        \           \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"Buck Rogers in the 25th Century\",
+        \n            \"status\": \"Ended\", \n            \"tvrage_id\": 2927, \n
+        \           \"tvrage_name\": \"Buck Rogers in the 25th Century\"\n        },
+        \n        \"74550\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"UPN\", \n
+        \           \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"Star Trek: Voyager\", \n            \"status\":
+        \"Ended\", \n            \"tvrage_id\": 5338, \n            \"tvrage_name\":
+        \"Star Trek: Voyager\"\n        }, \n        \"75450\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"HBO\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Six Feet
+        Under\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        5214, \n            \"tvrage_name\": \"Six Feet Under\"\n        }, \n        \"75660\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"BBC Two\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Extras\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        3471, \n            \"tvrage_name\": \"Extras\"\n        }, \n        \"75734\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"Cartoon Network\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Robot Chicken\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        5027, \n            \"tvrage_name\": \"Robot Chicken\"\n        }, \n        \"75760\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"CBS\", \n            \"next_ep_airdate\":
+        \"2012-09-24\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"How I Met Your Mother\", \n            \"status\":
+        \"Continuing\", \n            \"tvrage_id\": 3918, \n            \"tvrage_name\":
+        \"How I Met Your Mother\"\n        }, \n        \"75842\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Channel 4\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Father
+        Ted\", \n            \"status\": \"Ended\", \n            \"tvrage_id\": 3531,
+        \n            \"tvrage_name\": \"Father Ted\"\n        }, \n        \"75897\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"Comedy Central\", \n            \"next_ep_airdate\":
+        \"2012-09-26\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"South Park\", \n            \"status\": \"Continuing\",
+        \n            \"tvrage_id\": 5266, \n            \"tvrage_name\": \"South
+        Park\"\n        }, \n        \"75978\": {\n            \"air_by_date\": 0,
+        \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"FOX\", \n            \"next_ep_airdate\": \"2012-09-30\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Family
+        Guy\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        3506, \n            \"tvrage_name\": \"Family Guy\"\n        }, \n        \"76107\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"BBC One\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Doctor Who\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        3331, \n            \"tvrage_name\": \"Doctor Who\"\n        }, \n        \"76156\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"ABC\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Scrubs\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        5118, \n            \"tvrage_name\": \"Scrubs\"\n        }, \n        \"76203\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"HBO\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Curb Your Enthusiasm\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        3188, \n            \"tvrage_name\": \"Curb Your Enthusiasm\"\n        },
+        \n        \"76354\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"NBC\", \n
+        \           \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"V\", \n            \"status\": \"Ended\",
+        \n            \"tvrage_id\": 0, \n            \"tvrage_name\": \"\"\n        },
+        \n        \"76594\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"CBS\", \n
+        \           \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"American Gothic\", \n            \"status\":
+        \"Ended\", \n            \"tvrage_id\": 2599, \n            \"tvrage_name\":
+        \"American Gothic\"\n        }, \n        \"76736\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC One\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"BlackAdder\",
+        \n            \"status\": \"Ended\", \n            \"tvrage_id\": 5626, \n
+        \           \"tvrage_name\": \"Blackadder\"\n        }, \n        \"77062\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"Syndicated\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Battle of The Planets\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        0, \n            \"tvrage_name\": \"\"\n        }, \n        \"77398\": {\n
+        \           \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"FOX\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"The X-Files\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        6312, \n            \"tvrage_name\": \"The X-Files\"\n        }, \n        \"77544\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"SciFi\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Andromeda\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        2608, \n            \"tvrage_name\": \"Andromeda\"\n        }, \n        \"77963\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"CBS\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Without a Trace\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        6628, \n            \"tvrage_name\": \"Without a Trace\"\n        }, \n        \"78563\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"NTV\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Monkey\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        454, \n            \"tvrage_name\": \"Monkey\"\n        }, \n        \"78804\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"BBC One\", \n            \"next_ep_airdate\":
+        \"2012-08-25\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"Doctor Who (2005)\", \n            \"status\":
+        \"Continuing\", \n            \"tvrage_id\": 3332, \n            \"tvrage_name\":
+        \"Doctor Who (2005)\"\n        }, \n        \"78817\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Ghost
+        Whisperer\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        3677, \n            \"tvrage_name\": \"Ghost Whisperer\"\n        }, \n        \"78838\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"BBC Two\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Still Game\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        5352, \n            \"tvrage_name\": \"Still Game\"\n        }, \n        \"78886\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"Hallmark Channel\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"The 10th Kingdom\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        7075, \n            \"tvrage_name\": \"The 10th Kingdom\"\n        }, \n        \"78901\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"The CW\", \n            \"next_ep_airdate\":
+        \"2012-10-03\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"Supernatural\", \n            \"status\": \"Continuing\",
+        \n            \"tvrage_id\": 5410, \n            \"tvrage_name\": \"Supernatural\"\n
+        \       }, \n        \"79066\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"Showtime\",
+        \n            \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"Masters of Horror\", \n            \"status\":
+        \"Ended\", \n            \"tvrage_id\": 6728, \n            \"tvrage_name\":
+        \"Masters of Horror\"\n        }, \n        \"79216\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Channel 4\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"The IT
+        Crowd\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        8044, \n            \"tvrage_name\": \"The IT Crowd\"\n        }, \n        \"79334\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"Syfy\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Eureka\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        7506, \n            \"tvrage_name\": \"Eureka\"\n        }, \n        \"79352\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"ABC\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Ugly Betty\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        8089, \n            \"tvrage_name\": \"Ugly Betty\"\n        }, \n        \"79488\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"NBC\", \n            \"next_ep_airdate\":
+        \"2012-10-04\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"30 Rock\", \n            \"status\": \"Continuing\",
+        \n            \"tvrage_id\": 11215, \n            \"tvrage_name\": \"30 Rock\"\n
+        \       }, \n        \"79501\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"NBC\", \n
+        \           \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"Heroes\", \n            \"status\":
+        \"Ended\", \n            \"tvrage_id\": 8172, \n            \"tvrage_name\":
+        \"Heroes\"\n        }, \n        \"80159\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Syfy\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Sanctuary\",
+        \n            \"status\": \"Ended\", \n            \"tvrage_id\": 18682, \n
+        \           \"tvrage_name\": \"Sanctuary (US)\"\n        }, \n        \"80337\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"AMC\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Mad Men\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        16356, \n            \"tvrage_name\": \"Mad Men\"\n        }, \n        \"80345\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"The CW\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Reaper\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        15744, \n            \"tvrage_name\": \"Reaper\"\n        }, \n        \"80348\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"NBC\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Chuck\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        15614, \n            \"tvrage_name\": \"Chuck\"\n        }, \n        \"80379\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"CBS\", \n            \"next_ep_airdate\":
+        \"2012-09-27\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"The Big Bang Theory\", \n            \"status\":
+        \"Continuing\", \n            \"tvrage_id\": 8511, \n            \"tvrage_name\":
+        \"The Big Bang Theory\"\n        }, \n        \"80542\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"2012-09-25\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Private
+        Practice\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        15576, \n            \"tvrage_name\": \"Private Practice\"\n        }, \n
+        \       \"81025\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"ABC\", \n
+        \           \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"Eli Stone\", \n            \"status\":
+        \"Ended\", \n            \"tvrage_id\": 15727, \n            \"tvrage_name\":
+        \"Eli Stone\"\n        }, \n        \"81253\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC One\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Ashes
+        to Ashes\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        15504, \n            \"tvrage_name\": \"Ashes to Ashes\"\n        }, \n        \"81950\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"E4\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"The Inbetweeners\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        18753, \n            \"tvrage_name\": \"The Inbetweeners\"\n        }, \n
+        \       \"82066\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"FOX\", \n
+        \           \"next_ep_airdate\": \"2012-09-28\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Fringe\",
+        \n            \"status\": \"Continuing\", \n            \"tvrage_id\": 18388,
+        \n            \"tvrage_name\": \"Fringe\"\n        }, \n        \"82283\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"HBO\", \n            \"next_ep_airdate\":
+        \"2012-08-12\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"True Blood\", \n            \"status\": \"Continuing\",
+        \n            \"tvrage_id\": 12662, \n            \"tvrage_name\": \"True
+        Blood\"\n        }, \n        \"82339\": {\n            \"air_by_date\": 0,
+        \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"TNT\", \n            \"next_ep_airdate\": \"2012-08-12\", \n            \"paused\":
+        0, \n            \"quality\": \"HD\", \n            \"show_name\": \"Leverage\",
+        \n            \"status\": \"Continuing\", \n            \"tvrage_id\": 18411,
+        \n            \"tvrage_name\": \"Leverage\"\n        }, \n        \"82438\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"CTV\", \n            \"next_ep_airdate\":
+        \"2012-09-27\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"Flashpoint\", \n            \"status\": \"Continuing\",
+        \n            \"tvrage_id\": 18531, \n            \"tvrage_name\": \"Flashpoint\"\n
+        \       }, \n        \"82696\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"FX\", \n
+        \           \"next_ep_airdate\": \"2012-09-11\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Sons
+        of Anarchy\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        18174, \n            \"tvrage_name\": \"Sons of Anarchy\"\n        }, \n        \"83237\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"Syfy\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Stargate Universe\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        15343, \n            \"tvrage_name\": \"Stargate Universe\"\n        }, \n
+        \       \"83462\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"ABC\", \n
+        \           \"next_ep_airdate\": \"2012-09-24\", \n            \"paused\":
+        0, \n            \"quality\": \"HD\", \n            \"show_name\": \"Castle
+        (2009)\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        19267, \n            \"tvrage_name\": \"Castle (2009)\"\n        }, \n        \"83610\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"FOX\", \n            \"next_ep_airdate\":
+        \"2012-09-13\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"Glee\", \n            \"status\": \"Continuing\",
+        \n            \"tvrage_id\": 21704, \n            \"tvrage_name\": \"Glee\"\n
+        \       }, \n        \"84414\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"CBC\", \n
+        \           \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"Being Erica\", \n            \"status\":
+        \"Ended\", \n            \"tvrage_id\": 20818, \n            \"tvrage_name\":
+        \"Being Erica\"\n        }, \n        \"84676\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Syfy\", \n            \"next_ep_airdate\": \"2012-08-13\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Warehouse
+        13\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        7884, \n            \"tvrage_name\": \"Warehouse 13\"\n        }, \n        \"84947\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"HBO\", \n            \"next_ep_airdate\":
+        \"2012-09-16\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"Boardwalk Empire\", \n            \"status\":
+        \"Continuing\", \n            \"tvrage_id\": 23561, \n            \"tvrage_name\":
+        \"Boardwalk Empire\"\n        }, \n        \"94571\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"NBC\", \n            \"next_ep_airdate\": \"2012-10-19\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Community\",
+        \n            \"status\": \"Continuing\", \n            \"tvrage_id\": 22589,
+        \n            \"tvrage_name\": \"Community\"\n        }, \n        \"94971\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"ABC\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"V (2009)\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        22814, \n            \"tvrage_name\": \"V (2009)\"\n        }, \n        \"94991\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"TBS Superstation\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Cougar Town\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        22626, \n            \"tvrage_name\": \"Cougar Town\"\n        }, \n        \"95291\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"ABC\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Eastwick\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        22756, \n            \"tvrage_name\": \"Eastwick\"\n        }, \n        \"95451\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"CBS\", \n            \"next_ep_airdate\":
+        \"2012-09-30\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"The Good Wife\", \n            \"status\":
+        \"Continuing\", \n            \"tvrage_id\": 22755, \n            \"tvrage_name\":
+        \"The Good Wife\"\n        }, \n        \"95471\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Accidentally
+        On Purpose\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        22771, \n            \"tvrage_name\": \"Accidentally on Purpose\"\n        },
+        \n        \"95491\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"The CW\",
+        \n            \"next_ep_airdate\": \"2012-10-11\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"The Vampire
+        Diaries\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        21766, \n            \"tvrage_name\": \"The Vampire Diaries\"\n        },
+        \n        \"104641\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"HBO\", \n
+        \           \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"Bored to Death\", \n            \"status\":
+        \"Ended\", \n            \"tvrage_id\": 22338, \n            \"tvrage_name\":
+        \"Bored to Death\"\n        }, \n        \"110381\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"FX\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"HD\", \n            \"show_name\": \"Archer
+        (2009)\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        23354, \n            \"tvrage_name\": \"Archer (2009)\"\n        }, \n        \"110581\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"BBC Two\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"show_name\":
+        \"Tutti Frutti (1987)\", \n            \"status\": \"Ended\", \n            \"tvrage_id\":
+        1702, \n            \"tvrage_name\": \"Tutti Fruiti\"\n        }, \n        \"121361\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"HBO\", \n            \"next_ep_airdate\":
+        \"2013-03-31\", \n            \"paused\": 0, \n            \"quality\": \"HD\",
+        \n            \"show_name\": \"Game of Thrones\", \n            \"status\":
+        \"Continuing\", \n            \"tvrage_id\": 24493, \n            \"tvrage_name\":
+        \"Game of Thrones\"\n        }, \n        \"129261\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Starz!\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Spartacus\",
+        \n            \"status\": \"Continuing\", \n            \"tvrage_id\": 21885,
+        \n            \"tvrage_name\": \"Spartacus: War of the Damned\"\n        },
+        \n        \"153021\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"AMC\", \n
+        \           \"next_ep_airdate\": \"2012-10-14\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"The Walking
+        Dead\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        25056, \n            \"tvrage_name\": \"The Walking Dead\"\n        }, \n
+        \       \"176941\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"BBC One\",
+        \n            \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"HD\", \n            \"show_name\": \"Sherlock\", \n            \"status\":
+        \"Continuing\", \n            \"tvrage_id\": 23433, \n            \"tvrage_name\":
+        \"Sherlock\"\n        }, \n        \"185251\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC One\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"HD\", \n            \"show_name\": \"Outcasts\",
+        \n            \"status\": \"Ended\", \n            \"tvrage_id\": 26356, \n
+        \           \"tvrage_name\": \"Outcasts\"\n        }, \n        \"205281\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"TNT\", \n            \"next_ep_airdate\":
+        \"2012-08-12\", \n            \"paused\": 0, \n            \"quality\": \"HD\",
+        \n            \"show_name\": \"Falling Skies\", \n            \"status\":
+        \"Continuing\", \n            \"tvrage_id\": 26205, \n            \"tvrage_name\":
+        \"Falling Skies\"\n        }, \n        \"210961\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Starz!\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Magic
+        City\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        29628, \n            \"tvrage_name\": \"Magic City\"\n        }, \n        \"247897\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"Showtime\", \n            \"next_ep_airdate\":
+        \"2012-09-30\", \n            \"paused\": 0, \n            \"quality\": \"SD\",
+        \n            \"show_name\": \"Homeland\", \n            \"status\": \"Continuing\",
+        \n            \"tvrage_id\": 27811, \n            \"tvrage_name\": \"Homeland\"\n
+        \       }, \n        \"247909\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"Showtime\",
+        \n            \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"House of Lies\", \n            \"status\":
+        \"Continuing\", \n            \"tvrage_id\": 27561, \n            \"tvrage_name\":
+        \"House of Lies\"\n        }, \n        \"248742\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"2012-09-27\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Person
+        of Interest\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        28376, \n            \"tvrage_name\": \"Person of Interest\"\n        }, \n
+        \       \"248835\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"ABC\", \n
+        \           \"next_ep_airdate\": \"2012-09-30\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"show_name\": \"Once
+        Upon a Time (2011)\", \n            \"status\": \"Continuing\", \n            \"tvrage_id\":
+        28385, \n            \"tvrage_name\": \"Once Upon a Time\"\n        }, \n
+        \       \"250487\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"FX\", \n
+        \           \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"show_name\": \"American Horror Story\", \n            \"status\":
+        \"Continuing\", \n            \"tvrage_id\": 28776, \n            \"tvrage_name\":
+        \"American Horror Story\"\n        }\n    }, \n    \"message\": \"\", \n    \"result\":
+        \"success\"\n}"
+    http_version: 
+  recorded_at: Sun, 12 Aug 2012 20:43:06 GMT
+- request:
+    method: get
+    uri: http://lothlorien.home:8081/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows&sort=name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Aug 2012 20:43:06 GMT
+      Content-Length:
+      - '41434'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - CherryPy/3.2.0rc1
+    body:
+      encoding: US-ASCII
+      string: ! "{\n    \"data\": {\n        \"30 Rock\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"NBC\", \n            \"next_ep_airdate\": \"2012-10-04\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 79488, \n            \"tvrage_id\": 11215, \n            \"tvrage_name\":
+        \"30 Rock\"\n        }, \n        \"Accidentally On Purpose\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 95471, \n            \"tvrage_id\": 22771, \n            \"tvrage_name\":
+        \"Accidentally on Purpose\"\n        }, \n        \"American Gothic\": {\n
+        \           \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"CBS\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"status\":
+        \"Ended\", \n            \"tvdbid\": 76594, \n            \"tvrage_id\": 2599,
+        \n            \"tvrage_name\": \"American Gothic\"\n        }, \n        \"American
+        Horror Story\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"FX\", \n
+        \           \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"status\": \"Continuing\", \n            \"tvdbid\":
+        250487, \n            \"tvrage_id\": 28776, \n            \"tvrage_name\":
+        \"American Horror Story\"\n        }, \n        \"Andromeda\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"SciFi\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 77544, \n            \"tvrage_id\": 2608, \n            \"tvrage_name\":
+        \"Andromeda\"\n        }, \n        \"Archer (2009)\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"FX\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"HD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 110381, \n            \"tvrage_id\": 23354, \n            \"tvrage_name\":
+        \"Archer (2009)\"\n        }, \n        \"Ashes to Ashes\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC One\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 81253, \n            \"tvrage_id\": 15504, \n            \"tvrage_name\":
+        \"Ashes to Ashes\"\n        }, \n        \"Babylon 5\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Syndicated\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 70726, \n            \"tvrage_id\": 2693, \n            \"tvrage_name\":
+        \"Babylon 5\"\n        }, \n        \"Battle of The Planets\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Syndicated\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 77062, \n            \"tvrage_id\": 0, \n            \"tvrage_name\":
+        \"\"\n        }, \n        \"Battlestar Galactica (2003)\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"SciFi\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 73545, \n            \"tvrage_id\": 2730, \n            \"tvrage_name\":
+        \"Battlestar Galactica\"\n        }, \n        \"Being Erica\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 84414, \n            \"tvrage_id\": 20818, \n            \"tvrage_name\":
+        \"Being Erica\"\n        }, \n        \"BlackAdder\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC One\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 76736, \n            \"tvrage_id\": 5626, \n            \"tvrage_name\":
+        \"Blackadder\"\n        }, \n        \"Boardwalk Empire\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"HBO\", \n            \"next_ep_airdate\": \"2012-09-16\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 84947, \n            \"tvrage_id\": 23561, \n            \"tvrage_name\":
+        \"Boardwalk Empire\"\n        }, \n        \"Bored to Death\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"HBO\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 104641, \n            \"tvrage_id\": 22338, \n            \"tvrage_name\":
+        \"Bored to Death\"\n        }, \n        \"Buck Rogers in the 25th Century\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"NBC\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"status\":
+        \"Ended\", \n            \"tvdbid\": 74523, \n            \"tvrage_id\": 2927,
+        \n            \"tvrage_name\": \"Buck Rogers in the 25th Century\"\n        },
+        \n        \"CSI: NY\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"CBS\", \n
+        \           \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"status\": \"Continuing\", \n            \"tvdbid\":
+        73696, \n            \"tvrage_id\": 3185, \n            \"tvrage_name\": \"CSI:
+        NY\"\n        }, \n        \"Castle (2009)\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"2012-09-24\", \n            \"paused\":
+        0, \n            \"quality\": \"HD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 83462, \n            \"tvrage_id\": 19267, \n            \"tvrage_name\":
+        \"Castle (2009)\"\n        }, \n        \"Chuck\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"NBC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 80348, \n            \"tvrage_id\": 15614, \n            \"tvrage_name\":
+        \"Chuck\"\n        }, \n        \"Community\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"NBC\", \n            \"next_ep_airdate\": \"2012-10-19\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 94571, \n            \"tvrage_id\": 22589, \n            \"tvrage_name\":
+        \"Community\"\n        }, \n        \"Cougar Town\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"TBS Superstation\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 94991, \n            \"tvrage_id\": 22626, \n            \"tvrage_name\":
+        \"Cougar Town\"\n        }, \n        \"Curb Your Enthusiasm\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"HBO\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 76203, \n            \"tvrage_id\": 3188, \n            \"tvrage_name\":
+        \"Curb Your Enthusiasm\"\n        }, \n        \"Deadwood\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"HBO\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 72023, \n            \"tvrage_id\": 3267, \n            \"tvrage_name\":
+        \"Deadwood\"\n        }, \n        \"Desperate Housewives\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 73800, \n            \"tvrage_id\": 3294, \n            \"tvrage_name\":
+        \"Desperate Housewives\"\n        }, \n        \"Doctor Who\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC One\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 76107, \n            \"tvrage_id\": 3331, \n            \"tvrage_name\":
+        \"Doctor Who\"\n        }, \n        \"Doctor Who (2005)\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC One\", \n            \"next_ep_airdate\": \"2012-08-25\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 78804, \n            \"tvrage_id\": 3332, \n            \"tvrage_name\":
+        \"Doctor Who (2005)\"\n        }, \n        \"Eastwick\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 95291, \n            \"tvrage_id\": 22756, \n            \"tvrage_name\":
+        \"Eastwick\"\n        }, \n        \"Eli Stone\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 81025, \n            \"tvrage_id\": 15727, \n            \"tvrage_name\":
+        \"Eli Stone\"\n        }, \n        \"Eureka\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Syfy\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 79334, \n            \"tvrage_id\": 7506, \n            \"tvrage_name\":
+        \"Eureka\"\n        }, \n        \"Extras\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC Two\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 75660, \n            \"tvrage_id\": 3471, \n            \"tvrage_name\":
+        \"Extras\"\n        }, \n        \"Falling Skies\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"TNT\", \n            \"next_ep_airdate\": \"2012-08-12\", \n            \"paused\":
+        0, \n            \"quality\": \"HD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 205281, \n            \"tvrage_id\": 26205, \n            \"tvrage_name\":
+        \"Falling Skies\"\n        }, \n        \"Family Guy\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"FOX\", \n            \"next_ep_airdate\": \"2012-09-30\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 75978, \n            \"tvrage_id\": 3506, \n            \"tvrage_name\":
+        \"Family Guy\"\n        }, \n        \"Farscape\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"SciFi\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 70522, \n            \"tvrage_id\": 3519, \n            \"tvrage_name\":
+        \"Farscape\"\n        }, \n        \"Father Ted\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Channel 4\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 75842, \n            \"tvrage_id\": 3531, \n            \"tvrage_name\":
+        \"Father Ted\"\n        }, \n        \"Flashpoint\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CTV\", \n            \"next_ep_airdate\": \"2012-09-27\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 82438, \n            \"tvrage_id\": 18531, \n            \"tvrage_name\":
+        \"Flashpoint\"\n        }, \n        \"Fringe\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"FOX\", \n            \"next_ep_airdate\": \"2012-09-28\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 82066, \n            \"tvrage_id\": 18388, \n            \"tvrage_name\":
+        \"Fringe\"\n        }, \n        \"Game of Thrones\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"HBO\", \n            \"next_ep_airdate\": \"2013-03-31\", \n            \"paused\":
+        0, \n            \"quality\": \"HD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 121361, \n            \"tvrage_id\": 24493, \n            \"tvrage_name\":
+        \"Game of Thrones\"\n        }, \n        \"Ghost Whisperer\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 78817, \n            \"tvrage_id\": 3677, \n            \"tvrage_name\":
+        \"Ghost Whisperer\"\n        }, \n        \"Glee\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"FOX\", \n            \"next_ep_airdate\": \"2012-09-13\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 83610, \n            \"tvrage_id\": 21704, \n            \"tvrage_name\":
+        \"Glee\"\n        }, \n        \"Grey's Anatomy\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"2012-09-27\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 73762, \n            \"tvrage_id\": 3741, \n            \"tvrage_name\":
+        \"Grey's Anatomy\"\n        }, \n        \"Heroes\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"NBC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 79501, \n            \"tvrage_id\": 8172, \n            \"tvrage_name\":
+        \"Heroes\"\n        }, \n        \"Homeland\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Showtime\", \n            \"next_ep_airdate\": \"2012-09-30\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 247897, \n            \"tvrage_id\": 27811, \n            \"tvrage_name\":
+        \"Homeland\"\n        }, \n        \"House of Lies\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Showtime\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 247909, \n            \"tvrage_id\": 27561, \n            \"tvrage_name\":
+        \"House of Lies\"\n        }, \n        \"How I Met Your Mother\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"2012-09-24\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 75760, \n            \"tvrage_id\": 3918, \n            \"tvrage_name\":
+        \"How I Met Your Mother\"\n        }, \n        \"Leverage\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"TNT\", \n            \"next_ep_airdate\": \"2012-08-12\", \n            \"paused\":
+        0, \n            \"quality\": \"HD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 82339, \n            \"tvrage_id\": 18411, \n            \"tvrage_name\":
+        \"Leverage\"\n        }, \n        \"Lost\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 73739, \n            \"tvrage_id\": 4284, \n            \"tvrage_name\":
+        \"Lost\"\n        }, \n        \"Mad Men\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"AMC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 80337, \n            \"tvrage_id\": 16356, \n            \"tvrage_name\":
+        \"Mad Men\"\n        }, \n        \"Magic City\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Starz!\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 210961, \n            \"tvrage_id\": 29628, \n            \"tvrage_name\":
+        \"Magic City\"\n        }, \n        \"Masters of Horror\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Showtime\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 79066, \n            \"tvrage_id\": 6728, \n            \"tvrage_name\":
+        \"Masters of Horror\"\n        }, \n        \"Monkey\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"NTV\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 78563, \n            \"tvrage_id\": 454, \n            \"tvrage_name\":
+        \"Monkey\"\n        }, \n        \"Once Upon a Time (2011)\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"2012-09-30\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 248835, \n            \"tvrage_id\": 28385, \n            \"tvrage_name\":
+        \"Once Upon a Time\"\n        }, \n        \"One Tree Hill\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"The CW\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 72158, \n            \"tvrage_id\": 4724, \n            \"tvrage_name\":
+        \"One Tree Hill\"\n        }, \n        \"Outcasts\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC One\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"HD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 185251, \n            \"tvrage_id\": 26356, \n            \"tvrage_name\":
+        \"Outcasts\"\n        }, \n        \"Person of Interest\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"2012-09-27\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 248742, \n            \"tvrage_id\": 28376, \n            \"tvrage_name\":
+        \"Person of Interest\"\n        }, \n        \"Private Practice\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"2012-09-25\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 80542, \n            \"tvrage_id\": 15576, \n            \"tvrage_name\":
+        \"Private Practice\"\n        }, \n        \"QI\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC Two\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 72716, \n            \"tvrage_id\": 4920, \n            \"tvrage_name\":
+        \"QI\"\n        }, \n        \"Reaper\": {\n            \"air_by_date\": 0,
+        \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"The CW\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 80345, \n            \"tvrage_id\": 15744, \n            \"tvrage_name\":
+        \"Reaper\"\n        }, \n        \"Robot Chicken\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Cartoon Network\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 75734, \n            \"tvrage_id\": 5027, \n            \"tvrage_name\":
+        \"Robot Chicken\"\n        }, \n        \"Sanctuary\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Syfy\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 80159, \n            \"tvrage_id\": 18682, \n            \"tvrage_name\":
+        \"Sanctuary (US)\"\n        }, \n        \"Scrubs\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 76156, \n            \"tvrage_id\": 5118, \n            \"tvrage_name\":
+        \"Scrubs\"\n        }, \n        \"Sherlock\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC One\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"HD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 176941, \n            \"tvrage_id\": 23433, \n            \"tvrage_name\":
+        \"Sherlock\"\n        }, \n        \"Six Feet Under\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"HBO\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 75450, \n            \"tvrage_id\": 5214, \n            \"tvrage_name\":
+        \"Six Feet Under\"\n        }, \n        \"Smallville\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"The CW\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 72218, \n            \"tvrage_id\": 5227, \n            \"tvrage_name\":
+        \"Smallville\"\n        }, \n        \"Sons of Anarchy\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"FX\", \n            \"next_ep_airdate\": \"2012-09-11\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 82696, \n            \"tvrage_id\": 18174, \n            \"tvrage_name\":
+        \"Sons of Anarchy\"\n        }, \n        \"South Park\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Comedy Central\", \n            \"next_ep_airdate\": \"2012-09-26\", \n
+        \           \"paused\": 0, \n            \"quality\": \"SD\", \n            \"status\":
+        \"Continuing\", \n            \"tvdbid\": 75897, \n            \"tvrage_id\":
+        5266, \n            \"tvrage_name\": \"South Park\"\n        }, \n        \"Spartacus\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"Starz!\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"status\":
+        \"Continuing\", \n            \"tvdbid\": 129261, \n            \"tvrage_id\":
+        21885, \n            \"tvrage_name\": \"Spartacus: War of the Damned\"\n        },
+        \n        \"Star Trek: The Next Generation\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Syndicated\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 71470, \n            \"tvrage_id\": 5337, \n            \"tvrage_name\":
+        \"Star Trek: The Next Generation\"\n        }, \n        \"Star Trek: Voyager\":
+        {\n            \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"UPN\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"status\":
+        \"Ended\", \n            \"tvdbid\": 74550, \n            \"tvrage_id\": 5338,
+        \n            \"tvrage_name\": \"Star Trek: Voyager\"\n        }, \n        \"Stargate
+        Universe\": {\n            \"air_by_date\": 0, \n            \"cache\": {\n
+        \               \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"Syfy\", \n
+        \           \"next_ep_airdate\": \"\", \n            \"paused\": 0, \n            \"quality\":
+        \"SD\", \n            \"status\": \"Ended\", \n            \"tvdbid\": 83237,
+        \n            \"tvrage_id\": 15343, \n            \"tvrage_name\": \"Stargate
+        Universe\"\n        }, \n        \"Still Game\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC Two\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 78838, \n            \"tvrage_id\": 5352, \n            \"tvrage_name\":
+        \"Still Game\"\n        }, \n        \"Supernatural\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"The CW\", \n            \"next_ep_airdate\": \"2012-10-03\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 78901, \n            \"tvrage_id\": 5410, \n            \"tvrage_name\":
+        \"Supernatural\"\n        }, \n        \"The 10th Kingdom\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Hallmark Channel\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 78886, \n            \"tvrage_id\": 7075, \n            \"tvrage_name\":
+        \"The 10th Kingdom\"\n        }, \n        \"The Big Bang Theory\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"2012-09-27\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 80379, \n            \"tvrage_id\": 8511, \n            \"tvrage_name\":
+        \"The Big Bang Theory\"\n        }, \n        \"The Good Wife\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"2012-09-30\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 95451, \n            \"tvrage_id\": 22755, \n            \"tvrage_name\":
+        \"The Good Wife\"\n        }, \n        \"The IT Crowd\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Channel 4\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 79216, \n            \"tvrage_id\": 8044, \n            \"tvrage_name\":
+        \"The IT Crowd\"\n        }, \n        \"The Inbetweeners\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"E4\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 81950, \n            \"tvrage_id\": 18753, \n            \"tvrage_name\":
+        \"The Inbetweeners\"\n        }, \n        \"The Outer Limits (1995)\": {\n
+        \           \"air_by_date\": 0, \n            \"cache\": {\n                \"banner\":
+        1, \n                \"poster\": 1\n            }, \n            \"language\":
+        \"en\", \n            \"network\": \"SciFi\", \n            \"next_ep_airdate\":
+        \"\", \n            \"paused\": 0, \n            \"quality\": \"SD\", \n            \"status\":
+        \"Ended\", \n            \"tvdbid\": 72224, \n            \"tvrage_id\": 6069,
+        \n            \"tvrage_name\": \"The Outer Limits (1995)\"\n        }, \n
+        \       \"The Simpsons\": {\n            \"air_by_date\": 0, \n            \"cache\":
+        {\n                \"banner\": 1, \n                \"poster\": 1\n            },
+        \n            \"language\": \"en\", \n            \"network\": \"FOX\", \n
+        \           \"next_ep_airdate\": \"2012-09-30\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 71663, \n            \"tvrage_id\": 6190, \n            \"tvrage_name\":
+        \"The Simpsons\"\n        }, \n        \"The Vampire Diaries\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"The CW\", \n            \"next_ep_airdate\": \"2012-10-11\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 95491, \n            \"tvrage_id\": 21766, \n            \"tvrage_name\":
+        \"The Vampire Diaries\"\n        }, \n        \"The Walking Dead\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"AMC\", \n            \"next_ep_airdate\": \"2012-10-14\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 153021, \n            \"tvrage_id\": 25056, \n            \"tvrage_name\":
+        \"The Walking Dead\"\n        }, \n        \"The Wild Wild West\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 71637, \n            \"tvrage_id\": 6294, \n            \"tvrage_name\":
+        \"The Wild Wild West\"\n        }, \n        \"The X-Files\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"FOX\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 77398, \n            \"tvrage_id\": 6312, \n            \"tvrage_name\":
+        \"The X-Files\"\n        }, \n        \"True Blood\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"HBO\", \n            \"next_ep_airdate\": \"2012-08-12\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 82283, \n            \"tvrage_id\": 12662, \n            \"tvrage_name\":
+        \"True Blood\"\n        }, \n        \"Tutti Frutti (1987)\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"BBC Two\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 110581, \n            \"tvrage_id\": 1702, \n            \"tvrage_name\":
+        \"Tutti Fruiti\"\n        }, \n        \"Twin Peaks\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 70533, \n            \"tvrage_id\": 6450, \n            \"tvrage_name\":
+        \"Twin Peaks\"\n        }, \n        \"Ugly Betty\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 79352, \n            \"tvrage_id\": 8089, \n            \"tvrage_name\":
+        \"Ugly Betty\"\n        }, \n        \"V\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"NBC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 76354, \n            \"tvrage_id\": 0, \n            \"tvrage_name\":
+        \"\"\n        }, \n        \"V (2009)\": {\n            \"air_by_date\": 0,
+        \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"ABC\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 94971, \n            \"tvrage_id\": 22814, \n            \"tvrage_name\":
+        \"V (2009)\"\n        }, \n        \"Warehouse 13\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"Syfy\", \n            \"next_ep_airdate\": \"2012-08-13\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Continuing\",
+        \n            \"tvdbid\": 84676, \n            \"tvrage_id\": 7884, \n            \"tvrage_name\":
+        \"Warehouse 13\"\n        }, \n        \"Without a Trace\": {\n            \"air_by_date\":
+        0, \n            \"cache\": {\n                \"banner\": 1, \n                \"poster\":
+        1\n            }, \n            \"language\": \"en\", \n            \"network\":
+        \"CBS\", \n            \"next_ep_airdate\": \"\", \n            \"paused\":
+        0, \n            \"quality\": \"SD\", \n            \"status\": \"Ended\",
+        \n            \"tvdbid\": 77963, \n            \"tvrage_id\": 6628, \n            \"tvrage_name\":
+        \"Without a Trace\"\n        }\n    }, \n    \"message\": \"\", \n    \"result\":
+        \"success\"\n}"
+    http_version: 
+  recorded_at: Sun, 12 Aug 2012 20:43:08 GMT
 recorded_with: VCR 2.2.4

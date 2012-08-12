@@ -36,5 +36,15 @@ module SickBeard
     def shows(options = {})
       make_request('shows', sort: options[:sort])
     end
+
+    # Returns episode statistics for a given show.
+    def show_stats(show_id)
+        make_request('show.stats', tvdbid: show_id)
+    end
+
+    # Returns information for a given show.
+    def show(show_id)
+        make_request('show', tvdbid: show_id)
+    end
   end
 end

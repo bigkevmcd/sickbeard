@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe SickBeard do
-  let(:sickbeard) { SickBeard::Base.new(server: 'http://example.com/', api_key: '3095c1a9ac3f9bf4f4d47295904ce631') }
+  let(:sickbeard) { SickBeard::Base.new(server: 'http://lothlorien.home:8081/', api_key: '3095c1a9ac3f9bf4f4d47295904ce631') }
 
 
   describe "#sb" do
@@ -68,6 +68,27 @@ describe SickBeard do
       response = sickbeard.shows(:sort => 'name')
       response['result'].should  == 'success'
       response['data'].keys[0..4].should == ["30 Rock", "Accidentally On Purpose", "American Gothic", "American Horror Story", "Andromeda"]
+    end
+
+  end
+
+  describe "#show_stats" do
+    use_vcr_cassette :record => :new_episodes
+
+    it "should get the stats for a show by tvdbid" do
+        response = sickbeard.show_stats(70522)
+        response['result'].should == 'success'
+        response['data']['total'].should == 92
+    end
+  end
+
+  describe "#show" do
+    use_vcr_cassette :record => :new_episodes
+
+    it "should get the information for a given show" do
+        response = sickbeard.show(70522)
+        response['result'].should == 'success'
+        response['data']['show_name'] == 'Farscape'
     end
   end
 end

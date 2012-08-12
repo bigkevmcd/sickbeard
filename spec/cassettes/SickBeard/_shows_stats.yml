@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows.stats
+    uri: http://lothlorien.home:8081/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows.stats
     body:
       encoding: US-ASCII
       string: ''

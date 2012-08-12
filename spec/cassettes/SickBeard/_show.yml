@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://lothlorien.home:8081/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show&tvdbid=70522
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Aug 2012 20:47:49 GMT
+      Content-Length:
+      - '888'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - CherryPy/3.2.0rc1
+    body:
+      encoding: US-ASCII
+      string: ! "{\n    \"data\": {\n        \"air_by_date\": 0, \n        \"airs\":
+        \"\", \n        \"cache\": {\n            \"banner\": 1, \n            \"poster\":
+        1\n        }, \n        \"genre\": [\n            \"Science-Fiction\"\n        ],
+        \n        \"language\": \"en\", \n        \"location\": \"/volume1/video/TV/Farscape\",
+        \n        \"network\": \"SciFi\", \n        \"next_ep_airdate\": \"\", \n
+        \       \"paused\": 0, \n        \"quality\": \"SD\", \n        \"quality_details\":
+        {\n            \"archive\": [], \n            \"initial\": [\n                \"sddvd\",
+        \n                \"sdtv\"\n            ]\n        }, \n        \"season_folders\":
+        1, \n        \"season_list\": [\n            5, \n            4, \n            3,
+        \n            2, \n            1, \n            0\n        ], \n        \"show_name\":
+        \"Farscape\", \n        \"status\": \"Ended\", \n        \"tvrage_id\": 3519,
+        \n        \"tvrage_name\": \"Farscape\"\n    }, \n    \"message\": \"\", \n
+        \   \"result\": \"success\"\n}"
+    http_version: 
+  recorded_at: Sun, 12 Aug 2012 20:47:50 GMT
+recorded_with: VCR 2.2.4
