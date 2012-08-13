@@ -1,0 +1,138 @@
+{
+    "data": {
+        "1": {
+            "airdate": "1999-03-19", 
+            "name": "Premiere", 
+            "quality": "SD TV", 
+            "status": "Downloaded"
+        }, 
+        "2": {
+            "airdate": "1999-03-26", 
+            "name": "Exodus from Genesis", 
+            "quality": "SD TV", 
+            "status": "Downloaded"
+        }, 
+        "3": {
+            "airdate": "1999-04-02", 
+            "name": "Back and Back and Back to the Future", 
+            "quality": "SD DVD", 
+            "status": "Downloaded"
+        }, 
+        "4": {
+            "airdate": "1999-04-09", 
+            "name": "Throne for a Loss", 
+            "quality": "SD DVD", 
+            "status": "Downloaded"
+        }, 
+        "5": {
+            "airdate": "1999-04-16", 
+            "name": "PK Tech Girl", 
+            "quality": "SD DVD", 
+            "status": "Downloaded"
+        }, 
+        "6": {
+            "airdate": "1999-04-23", 
+            "name": "Thank God it's Friday, Again.", 
+            "quality": "SD DVD", 
+            "status": "Downloaded"
+        }, 
+        "7": {
+            "airdate": "1999-05-08", 
+            "name": "I, E.T.", 
+            "quality": "SD DVD", 
+            "status": "Downloaded"
+        }, 
+        "8": {
+            "airdate": "1999-06-11", 
+            "name": "That Old Black Magic", 
+            "quality": "SD DVD", 
+            "status": "Downloaded"
+        }, 
+        "9": {
+            "airdate": "1999-06-18", 
+            "name": "DNA Mad Scientist", 
+            "quality": "SD DVD", 
+            "status": "Downloaded"
+        }, 
+        "10": {
+            "airdate": "1999-06-25", 
+            "name": "They've Got a Secret", 
+            "quality": "SD DVD", 
+            "status": "Downloaded"
+        }, 
+        "11": {
+            "airdate": "1999-07-09", 
+            "name": "Till the Blood Runs Clear", 
+            "quality": "SD DVD", 
+            "status": "Downloaded"
+        }, 
+        "12": {
+            "airdate": "1999-07-16", 
+            "name": "The Flax", 
+            "quality": "SD DVD", 
+            "status": "Downloaded"
+        }, 
+        "13": {
+            "airdate": "1999-07-23", 
+            "name": "Rhapsody in Blue", 
+            "quality": "SD DVD", 
+            "status": "Downloaded"
+        }, 
+        "14": {
+            "airdate": "1999-07-30", 
+            "name": "Jeremiah Crichton", 
+            "quality": "SD DVD", 
+            "status": "Downloaded"
+        }, 
+        "15": {
+            "airdate": "1999-08-13", 
+            "name": "Durka Returns", 
+            "quality": "N/A", 
+            "status": "Skipped"
+        }, 
+        "16": {
+            "airdate": "1999-08-01", 
+            "name": "A Human Reaction", 
+            "quality": "N/A", 
+            "status": "Skipped"
+        }, 
+        "17": {
+            "airdate": "1999-09-10", 
+            "name": "Through the Looking Glass", 
+            "quality": "N/A", 
+            "status": "Skipped"
+        }, 
+        "18": {
+            "airdate": "1999-09-17", 
+            "name": "A Bug's Life", 
+            "quality": "N/A", 
+            "status": "Skipped"
+        }, 
+        "19": {
+            "airdate": "2000-01-07", 
+            "name": "Nerve", 
+            "quality": "N/A", 
+            "status": "Skipped"
+        }, 
+        "20": {
+            "airdate": "2000-01-14", 
+            "name": "The Hidden Memory", 
+            "quality": "N/A", 
+            "status": "Skipped"
+        }, 
+        "21": {
+            "airdate": "2000-01-21", 
+            "name": "Bone to be Wild", 
+            "quality": "N/A", 
+            "status": "Skipped"
+        }, 
+        "22": {
+            "airdate": "2000-01-28", 
+            "name": "Family Ties", 
+            "quality": "N/A", 
+            "status": "Skipped"
+        }
+    }, 
+    "message": "", 
+    "result": "success"
+}

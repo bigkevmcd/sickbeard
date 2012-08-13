@@ -1,0 +1,570 @@
+{
+    "data": {
+        "0": {
+            "1": {
+                "airdate": "2001-03-16", 
+                "name": "Farscape: Undressed", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "2": {
+                "airdate": "2001-06-01", 
+                "name": "Re:Union", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }
+        }, 
+        "1": {
+            "1": {
+                "airdate": "1999-03-19", 
+                "name": "Premiere", 
+                "quality": "SD TV", 
+                "status": "Downloaded"
+            }, 
+            "2": {
+                "airdate": "1999-03-26", 
+                "name": "Exodus from Genesis", 
+                "quality": "SD TV", 
+                "status": "Downloaded"
+            }, 
+            "3": {
+                "airdate": "1999-04-02", 
+                "name": "Back and Back and Back to the Future", 
+                "quality": "SD DVD", 
+                "status": "Downloaded"
+            }, 
+            "4": {
+                "airdate": "1999-04-09", 
+                "name": "Throne for a Loss", 
+                "quality": "SD DVD", 
+                "status": "Downloaded"
+            }, 
+            "5": {
+                "airdate": "1999-04-16", 
+                "name": "PK Tech Girl", 
+                "quality": "SD DVD", 
+                "status": "Downloaded"
+            }, 
+            "6": {
+                "airdate": "1999-04-23", 
+                "name": "Thank God it's Friday, Again.", 
+                "quality": "SD DVD", 
+                "status": "Downloaded"
+            }, 
+            "7": {
+                "airdate": "1999-05-08", 
+                "name": "I, E.T.", 
+                "quality": "SD DVD", 
+                "status": "Downloaded"
+            }, 
+            "8": {
+                "airdate": "1999-06-11", 
+                "name": "That Old Black Magic", 
+                "quality": "SD DVD", 
+                "status": "Downloaded"
+            }, 
+            "9": {
+                "airdate": "1999-06-18", 
+                "name": "DNA Mad Scientist", 
+                "quality": "SD DVD", 
+                "status": "Downloaded"
+            }, 
+            "10": {
+                "airdate": "1999-06-25", 
+                "name": "They've Got a Secret", 
+                "quality": "SD DVD", 
+                "status": "Downloaded"
+            }, 
+            "11": {
+                "airdate": "1999-07-09", 
+                "name": "Till the Blood Runs Clear", 
+                "quality": "SD DVD", 
+                "status": "Downloaded"
+            }, 
+            "12": {
+                "airdate": "1999-07-16", 
+                "name": "The Flax", 
+                "quality": "SD DVD", 
+                "status": "Downloaded"
+            }, 
+            "13": {
+                "airdate": "1999-07-23", 
+                "name": "Rhapsody in Blue", 
+                "quality": "SD DVD", 
+                "status": "Downloaded"
+            }, 
+            "14": {
+                "airdate": "1999-07-30", 
+                "name": "Jeremiah Crichton", 
+                "quality": "SD DVD", 
+                "status": "Downloaded"
+            }, 
+            "15": {
+                "airdate": "1999-08-13", 
+                "name": "Durka Returns", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "16": {
+                "airdate": "1999-08-01", 
+                "name": "A Human Reaction", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "17": {
+                "airdate": "1999-09-10", 
+                "name": "Through the Looking Glass", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "18": {
+                "airdate": "1999-09-17", 
+                "name": "A Bug's Life", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "19": {
+                "airdate": "2000-01-07", 
+                "name": "Nerve", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "20": {
+                "airdate": "2000-01-14", 
+                "name": "The Hidden Memory", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "21": {
+                "airdate": "2000-01-21", 
+                "name": "Bone to be Wild", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "22": {
+                "airdate": "2000-01-28", 
+                "name": "Family Ties", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }
+        }, 
+        "2": {
+            "1": {
+                "airdate": "2000-03-17", 
+                "name": "Mind the Baby", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "2": {
+                "airdate": "2000-03-24", 
+                "name": "Vitas Mortis", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "3": {
+                "airdate": "2000-03-31", 
+                "name": "Taking the Stone", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "4": {
+                "airdate": "2000-04-07", 
+                "name": "Crackers Don't Matter", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "5": {
+                "airdate": "2000-04-14", 
+                "name": "The Way We Weren't", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "6": {
+                "airdate": "2000-04-21", 
+                "name": "Picture if You Will", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "7": {
+                "airdate": "2000-06-16", 
+                "name": "Home on the Remains", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "8": {
+                "airdate": "2000-06-23", 
+                "name": "Dream a Little Dream", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "9": {
+                "airdate": "2000-07-07", 
+                "name": "Out of Their Minds", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "10": {
+                "airdate": "2000-07-14", 
+                "name": "My Three Crichtons", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "11": {
+                "airdate": "2000-07-21", 
+                "name": "Look at the Princess (1): A Kiss Is But a Kiss", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "12": {
+                "airdate": "2000-07-28", 
+                "name": "Look at the Princess (2): I Do, I Think", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "13": {
+                "airdate": "2000-08-04", 
+                "name": "Look at the Princess (3): The Maltese Crichton", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "14": {
+                "airdate": "2000-08-11", 
+                "name": "Beware of Dog", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "15": {
+                "airdate": "2000-08-18", 
+                "name": "Won't Get Fooled Again", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "16": {
+                "airdate": "2000-08-25", 
+                "name": "The Locket", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "17": {
+                "airdate": "2000-08-08", 
+                "name": "The Ugly Truth", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "18": {
+                "airdate": "2000-09-15", 
+                "name": "A Clockwork Nebari", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "19": {
+                "airdate": "2001-01-05", 
+                "name": "Liars, Guns and Money (1): A Not So Simple Plan", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "20": {
+                "airdate": "2001-01-12", 
+                "name": "Liars, Guns and Money (2): With Friends Like These...", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "21": {
+                "airdate": "2001-01-19", 
+                "name": "Liars, Guns and Money (3): Plan B", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "22": {
+                "airdate": "2001-01-26", 
+                "name": "Die Me, Dichotomy", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }
+        }, 
+        "3": {
+            "1": {
+                "airdate": "2001-03-16", 
+                "name": "Season of Death", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "2": {
+                "airdate": "2001-03-23", 
+                "name": "Suns and Lovers", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "3": {
+                "airdate": "2001-03-30", 
+                "name": "Self Inflicted Wounds (1): Could'a, Would'a, Should'a", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "4": {
+                "airdate": "2001-04-06", 
+                "name": "Self Inflicted Wounds (2): Wait for the Wheel", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "5": {
+                "airdate": "2001-04-13", 
+                "name": "...Different Destinations", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "6": {
+                "airdate": "2001-04-01", 
+                "name": "Eat Me", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "7": {
+                "airdate": "2001-06-15", 
+                "name": "Thanks for Sharing", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "8": {
+                "airdate": "2001-06-22", 
+                "name": "Green Eyed Monster", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "9": {
+                "airdate": "2001-06-29", 
+                "name": "Losing Time", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "10": {
+                "airdate": "2001-07-06", 
+                "name": "Relativity", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "11": {
+                "airdate": "2001-07-13", 
+                "name": "Incubator", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "12": {
+                "airdate": "2001-07-14", 
+                "name": "Meltdown", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "13": {
+                "airdate": "2001-07-01", 
+                "name": "Scratch 'n Sniff", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "14": {
+                "airdate": "2001-07-27", 
+                "name": "Infinite Possibilities (1): Daedalus Demands", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "15": {
+                "airdate": "2001-08-03", 
+                "name": "Infinite Possibilities (2): Icarus Abides", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "16": {
+                "airdate": "2001-08-10", 
+                "name": "Revenging Angel", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "17": {
+                "airdate": "2001-08-17", 
+                "name": "The Choice", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "18": {
+                "airdate": "2001-08-24", 
+                "name": "Fractures", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "19": {
+                "airdate": "2002-04-05", 
+                "name": "I-Yensch, You-Yensch", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "20": {
+                "airdate": "2002-04-12", 
+                "name": "Into the Lion's Den (1): Lambs to the Slaughter", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "21": {
+                "airdate": "2002-04-19", 
+                "name": "Into the Lion's Den (2): Wolf in Sheep's Clothing", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "22": {
+                "airdate": "2002-04-26", 
+                "name": "Dog with Two Bones", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }
+        }, 
+        "4": {
+            "1": {
+                "airdate": "2002-06-07", 
+                "name": "Crichton Kicks", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "2": {
+                "airdate": "2002-06-14", 
+                "name": "What Was Lost (1): Sacrifice", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "3": {
+                "airdate": "2002-06-21", 
+                "name": "What Was Lost (2): Resurrection", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "4": {
+                "airdate": "2002-06-28", 
+                "name": "Lava's a Many Splendored Thing", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "5": {
+                "airdate": "2002-07-12", 
+                "name": "Promises", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "6": {
+                "airdate": "2002-07-19", 
+                "name": "Natural Election", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "7": {
+                "airdate": "2002-07-26", 
+                "name": "John Quixote", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "8": {
+                "airdate": "2002-08-02", 
+                "name": "I Shrink Therefore I Am", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "9": {
+                "airdate": "2002-08-09", 
+                "name": "A Prefect Murder", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "10": {
+                "airdate": "2002-08-16", 
+                "name": "Coup by Clam", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "11": {
+                "airdate": "2002-08-23", 
+                "name": "Unrealized Reality (1)", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "12": {
+                "airdate": "2003-01-10", 
+                "name": "Kansas (2)", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "13": {
+                "airdate": "2003-01-17", 
+                "name": "Terra Firma (3)", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "14": {
+                "airdate": "2003-01-24", 
+                "name": "Twice Shy", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "15": {
+                "airdate": "2003-01-31", 
+                "name": "Mental as Anything", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "16": {
+                "airdate": "2003-02-07", 
+                "name": "Bringing Home the Beacon", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "17": {
+                "airdate": "2003-02-14", 
+                "name": "A Constellation of Doubt", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "18": {
+                "airdate": "2003-02-21", 
+                "name": "Prayer", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "19": {
+                "airdate": "2003-02-28", 
+                "name": "We're So Screwed (1): Fetal Attraction", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "20": {
+                "airdate": "2003-03-07", 
+                "name": "We're So Screwed (2): Hot to Katratzi", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "21": {
+                "airdate": "2003-03-14", 
+                "name": "We're So Screwed (3): La Bomba", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "22": {
+                "airdate": "2003-03-21", 
+                "name": "Bad Timing", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }
+        }, 
+        "5": {
+            "1": {
+                "airdate": "2004-10-17", 
+                "name": "The Peacekeeper Wars (1)", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }, 
+            "2": {
+                "airdate": "2004-10-18", 
+                "name": "The Peacekeeper Wars (2)", 
+                "quality": "N/A", 
+                "status": "Skipped"
+            }
+        }
+    }, 
+    "message": "", 
+    "result": "success"
+}
