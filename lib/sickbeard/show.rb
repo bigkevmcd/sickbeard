@@ -1,7 +1,24 @@
 module SickBeard
 
   class Show
+    # @!attribute [r] name
+    #   @return [String] the name of the Show
+    # @!attribute [r] genres
+    #   @return [Array(String)] genres for this Show
+    # @!attribute [r] status
+    #   @return [String] the status for this Show
+    #     * Continuing
+    #     * Ended
+    # @!attribute [r] season_list
+    #  @return [Array(Integer)] list of known Series for this Show
+    # @!attribute [r] server
+    #  @return [SickBeard::Client] the server this Show was loaded from
+    # @!attribute [r] tvdbid
+    #  @return [Integer] the tvdbid for this Show
+    # @!attribute [r] quality
+    #  @return [String] The download quality for this Show e.g. SD
     attr_reader :name, :genres, :status, :season_list, :server, :tvdbid, :quality
+
     def self.from_response(server, tvdbid, response)
       options = {
         name: response['show_name'],
@@ -15,6 +32,10 @@ module SickBeard
       Show.new(options)
     end
 
+    # Create a new Show
+    # @option options [String] :name ("") The name for this Show
+    # @option options [Array(String)] :genres ("") array of genres applicable to this show.
+    # @return [Object] the object.
     def initialize(options = {})
 
       options = { name: '',
