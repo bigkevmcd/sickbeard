@@ -1,14 +1,10 @@
-require 'json'
-require 'uri'
-require 'cgi'
-
 module SickBeard
 
-  class Base
+  class Client < Base
 
     # Returns misc SickBeard related information.
     def sb
-      make_request('sb')
+      make_json_request('sb')
     end
 
     # Returns the upcoming episodes for the shows currently added in the
@@ -24,27 +20,27 @@ module SickBeard
     #
     def future(options = {})
       filter = (options[:type] || []).join('|')
-      make_request('future', type: filter, sort: options[:sort])
+      make_json_request('future', type: filter, sort: options[:sort])['data']
     end
 
     # Returns global episode and show statistics.
     def shows_stats
-      make_request('shows.stats')
+      make_json_request('shows.stats')['data']
     end
 
     # Returns a list of all shows in SickBeard.
     def shows(options = {})
-      make_request('shows', sort: options[:sort])
+      make_json_request('shows', sort: options[:sort])['data']
     end
 
     # Returns episode statistics for a given show.
     def show_stats(show_id)
-        make_request('show.stats', tvdbid: show_id)
+      make_json_request('show.stats', tvdbid: show_id)['data']
     end
 
     # Returns information for a given show.
     def show(show_id)
-        make_request('show', tvdbid: show_id)
+      Show.from_response(self, show_id, make_json_request('show', tvdbid: show_id)['data'])
     end
   end
 end

@@ -23,16 +23,22 @@ module SickBeard
       raise ArgumentError, 'No :server provided' if options[:server].nil? || options[:server].empty?
     end
 
-private
-
     def make_request(cmd, options = {})
       options = { cmd: cmd }.merge(options)
       path = "/api/#{@api_key}/"
       uri = URI::join(URI.parse(@server), path)
       uri.query = URI.encode_www_form( options )
-      JSON.parse(Net::HTTP.get(uri))
+      Net::HTTP.get(uri)
+    end
+
+    def make_json_request(cmd, options = {})
+      response = JSON.parse(make_request(cmd, options))
+      raise Error.new(response['message']) if response['result'] != 'success'
+      response
     end
   end
+
+  class Error < RuntimeError; end
 end
 
 Dir[File.join(File.dirname(__FILE__), 'sickbeard/**/*.rb')].sort.each { |lib| require lib }
