@@ -1,13 +1,12 @@
 require File.dirname(__FILE__) + '/../lib/sickbeard'
 require 'webmock/rspec'
-require 'vcr'
+require 'json'
+
 
 RSpec.configure do |config|
   config.order = 'random'
-  config.extend VCR::RSpec::Macros
 end
 
-VCR.configure do |c|
-  c.cassette_library_dir = 'spec/cassettes'
-  c.hook_into :webmock
+def load_fixture(fixture_name)
+    File.open(File.dirname(__FILE__) + "/fixtures/#{fixture_name}.json")
 end

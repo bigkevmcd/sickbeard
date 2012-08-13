@@ -1,0 +1,32 @@
+{
+  "data": {
+    "archived": 0,
+    "downloaded": {
+      "1080p_bluray": 0,
+      "720p_bluray": 0,
+      "720p_web-dl": 0,
+      "hd_tv": 0,
+      "sd_dvd": 6,
+      "sd_tv": 2,
+      "total": 8,
+      "unknown": 0
+    },
+    "ignored": 0,
+    "skipped": 78,
+    "snatched": {
+      "1080p_bluray": 0,
+      "720p_bluray": 0,
+      "720p_web-dl": 0,
+      "hd_tv": 0,
+      "sd_dvd": 0,
+      "sd_tv": 0,
+      "total": 6,
+      "unknown": 0
+    },
+    "total": 92,
+    "unaired": 0,
+    "wanted": 0
+  },
+  "message": "",
+  "result": "success"
+}

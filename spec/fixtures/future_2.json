@@ -1,0 +1,27 @@
+{
+  "data": {
+    "missed": [
+
+    ],
+    "soon": [
+      {
+        "airdate": "2012-08-13",
+        "airs": "Monday 9:00 PM",
+        "ep_name": "There's Always a Downside",
+        "ep_plot": "Pete and Claudia reunite with Hugo to track down a deadly artifact at his nephew's prep school; Myka and Steve investigate an artifact that is killing a musician in New Orleans.",
+        "episode": 4,
+        "network": "Syfy",
+        "paused": 0,
+        "quality": "SD",
+        "season": 4,
+        "show_name": "Warehouse 13",
+        "show_status": "Continuing",
+        "tvdbid": 84676,
+        "weekday": 1
+      }
+    ]
+  },
+  "message": "",
+  "result": "success"
+}
+

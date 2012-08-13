@@ -1,0 +1,43 @@
+{
+  "data": {
+    "air_by_date": 0,
+    "airs": "",
+    "cache": {
+      "banner": 1,
+      "poster": 1
+    },
+    "genre": [
+      "Science-Fiction"
+    ],
+    "language": "en",
+    "location": "/volume1/video/TV/Farscape",
+    "network": "SciFi",
+    "next_ep_airdate": "",
+    "paused": 0,
+    "quality": "SD",
+    "quality_details": {
+      "archive": [
+
+      ],
+      "initial": [
+        "sddvd",
+        "sdtv"
+      ]
+    },
+    "season_folders": 1,
+    "season_list": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "show_name": "Farscape",
+    "status": "Ended",
+    "tvrage_id": 3519,
+    "tvrage_name": "Farscape"
+  },
+  "message": "",
+  "result": "success"
+}
