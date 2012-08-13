@@ -20,10 +20,19 @@ Or install it yourself as:
 
     require 'sickbeard'
 
-    client = SickBeard::Base.new(server: 'http://example.com/', api_key: '1234568901')
+    client = SickBeard::Client.new(server: 'http://example.com/', api_key: '1234568901')
 
     puts SickBeard.shows_stats
 
+### Fetching a Show
+
+    show = client.show(17522)
+
+    show.paused?
+
+    show.pause
+
+    show.unpause
 
 ## Contributing
 
