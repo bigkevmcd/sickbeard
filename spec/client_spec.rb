@@ -20,8 +20,6 @@ describe SickBeard::Client do
     end
   end
 
-
-
   describe "#sb" do
     it "should request the SickBeard server information" do
       stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=sb').
@@ -31,7 +29,6 @@ describe SickBeard::Client do
   end
 
   describe "#future" do
-
     it "should return a list of upcoming TV shows" do
       stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=future&sort&type=').
         to_return(:status => 200, :body => load_fixture('future_1'))
@@ -83,24 +80,22 @@ describe SickBeard::Client do
        stub_request(:get, "http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows&sort").
          to_return(:status => 200, :body => load_fixture('shows_1'))
       response = sickbeard.shows
-      response.keys[0..4].should == ['70522', '70533', '70726', '71470', '71637']
+
+      response.length.should == 89
+      response[0..4].collect { |show| show.name }.should == [
+        'Farscape',  'Twin Peaks', 'Babylon 5',
+        'Star Trek: The Next Generation', 'The Wild Wild West']
     end
 
     it "should order the results" do
        stub_request(:get, "http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=shows&sort=name").
          to_return(:status => 200, :body => load_fixture('shows_2'))
-      response = sickbeard.shows(:sort => 'name')
-      response.keys[0..4].should == ["30 Rock", "Accidentally On Purpose", "American Gothic", "American Horror Story", "Andromeda"]
-    end
-  end
+      response = sickbeard.shows(sort: 'name')
 
-  describe "#show_stats" do
-    it "should get the stats for a show by tvdbid" do
-      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.stats&tvdbid=70522').
-        to_return(:status => 200, :body => load_fixture('show_stats'))
-
-      response = sickbeard.show_stats(70522)
-      response['total'].should == 92
+      response.length.should == 89
+      response[0..4].collect { |show| show.name }.should == [
+        '30 Rock', 'Accidentally On Purpose', 'American Gothic',
+        'American Horror Story', 'Andromeda']
     end
   end
 

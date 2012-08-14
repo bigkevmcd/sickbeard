@@ -34,12 +34,16 @@ module SickBeard
 
     # Returns a list of all shows in SickBeard.
     def shows(options = {})
-      make_json_request('shows', sort: options[:sort])['data']
-    end
-
-    # Returns episode statistics for a given show.
-    def show_stats(show_id)
-      make_json_request('show.stats', tvdbid: show_id)['data']
+      make_json_request('shows', sort: options[:sort])['data'].collect do |key, response|
+        # SickBeard API returns different things based on your sort.
+        if options[:sort] == 'name'
+          response['show_name'] = key
+          show_id = response['tvdbid']
+        else
+          show_id = key
+        end
+        Show.from_response(self, show_id, response)
+      end
     end
 
     # Returns information for a given show.

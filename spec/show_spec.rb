@@ -92,4 +92,61 @@ describe SickBeard::Show do
       show.set_quality(archive: 'sdtv', initial: 'hdtv').should == 'Farscape quality has been changed to Custom'
     end
   end
+
+  describe "#season_list" do
+    it "should return the season list if it was already populated" do
+      new_show = SickBeard::Show.new(server: sickbeard, tvdbid: 70522, season_list: [3, 2, 1, 0])
+      new_show.season_list.should == [0, 1, 2, 3]
+    end
+    it "should fetch the season list if it is unknown" do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.seasonlist&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('show_seasonlist'))
+      new_show = SickBeard::Show.new(server: sickbeard, tvdbid: 70522)
+      new_show.season_list.should == [0, 1, 2, 3, 4, 5]
+    end
+  end
+
+  describe "#show_stats" do
+    it "should get the stats for the show" do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.stats&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('show_stats'))
+
+      response = show.stats
+      response['total'].should == 92
+    end
+  end
+
+  describe "#cached_banner?" do
+    it "should return true if the banner image cache is valid for this show" do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.cache&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('cache_valid'))
+      show.should have_cached_banner
+    end
+    it "should return false if the banner image cache is not valid for this show" do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.cache&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('cache_invalid'))
+      show.should_not have_cached_banner
+    end
+  end
+
+  describe "#cached_poster?" do
+    it "should return true if the banner image cache is valid for this show" do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.cache&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('cache_valid'))
+      show.should have_cached_poster
+    end
+    it "should return false if the banner image cache is not valid for this show" do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.cache&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('cache_invalid'))
+      show.should_not have_cached_poster
+    end
+  end
+
+  describe "#update" do
+    it "should update a show in SickBeard by pulling down information from TVDB and rescan local files." do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.update&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('show_update'))
+      show.update.should == 'Farscape has queued to be updated'
+    end
+  end
 end
