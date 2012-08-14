@@ -1,0 +1,479 @@
+{
+    "data": {
+        "langid": 7, 
+        "results": [
+            {
+                "first_aired": "1984-10-04", 
+                "name": "Fist of the North Star", 
+                "tvdbid": 79156
+            }, 
+            {
+                "first_aired": "2012-03-13", 
+                "name": "Fashion Star", 
+                "tvdbid": 253277
+            }, 
+            {
+                "first_aired": null, 
+                "name": "Mega Man Upon A Star", 
+                "tvdbid": 85369
+            }, 
+            {
+                "first_aired": "2007-01-13", 
+                "name": "Star King", 
+                "tvdbid": 258675
+            }, 
+            {
+                "first_aired": "1993-01-03", 
+                "name": "Star Trek: Deep Space Nine", 
+                "tvdbid": 72073
+            }, 
+            {
+                "first_aired": "2002-03-14", 
+                "name": "My Guide to Becoming a Rock Star", 
+                "tvdbid": 76712
+            }, 
+            {
+                "first_aired": "2004-01-15", 
+                "name": "Star Trek New Voyages: Phase II", 
+                "tvdbid": 79256
+            }, 
+            {
+                "first_aired": "2006-12-09", 
+                "name": "Star Trek: Dark Armada", 
+                "tvdbid": 173081
+            }, 
+            {
+                "first_aired": "2007-04-08", 
+                "name": "Lucky Star", 
+                "tvdbid": 80177
+            }, 
+            {
+                "first_aired": "2010-05-05", 
+                "name": "Video Killed The Radio Star", 
+                "tvdbid": 190491
+            }, 
+            {
+                "first_aired": "2003-09-01", 
+                "name": "My Dad the Rock Star", 
+                "tvdbid": 73270
+            }, 
+            {
+                "first_aired": "2010-11-03", 
+                "name": "Star Trek: Phoenix", 
+                "tvdbid": 258372
+            }, 
+            {
+                "first_aired": "2007-04-30", 
+                "name": "Star Trek: Intrepid", 
+                "tvdbid": 137501
+            }, 
+            {
+                "first_aired": "2008-10-03", 
+                "name": "Star Wars - The Clone Wars", 
+                "tvdbid": 83268
+            }, 
+            {
+                "first_aired": "1997-03-10", 
+                "name": "Star in My Heart", 
+                "tvdbid": 192511
+            }, 
+            {
+                "first_aired": null, 
+                "name": "radio star", 
+                "tvdbid": 260911
+            }, 
+            {
+                "first_aired": "2009-09-30", 
+                "name": "The Poker Star", 
+                "tvdbid": 117101
+            }, 
+            {
+                "first_aired": "2012-06-02", 
+                "name": "Bollywood Star", 
+                "tvdbid": 260411
+            }, 
+            {
+                "first_aired": "2007-09-22", 
+                "name": "Grand Star", 
+                "tvdbid": 80366
+            }, 
+            {
+                "first_aired": "1977-10-01", 
+                "name": "Star Blazers", 
+                "tvdbid": 77773
+            }, 
+            {
+                "first_aired": "2011-08-25", 
+                "name": "Design Star", 
+                "tvdbid": 106691
+            }, 
+            {
+                "first_aired": "2007-05-28", 
+                "name": "Star Wars: The Legacy Revealed", 
+                "tvdbid": 117611
+            }, 
+            {
+                "first_aired": "2008-10-27", 
+                "name": "Star Trek: Federation One", 
+                "tvdbid": 126421
+            }, 
+            {
+                "first_aired": "1997-07-01", 
+                "name": "Captain Star", 
+                "tvdbid": 78704
+            }, 
+            {
+                "first_aired": "2002-11-01", 
+                "name": "You're A Star", 
+                "tvdbid": 73044
+            }, 
+            {
+                "first_aired": "1987-07-01", 
+                "name": "Star Cops", 
+                "tvdbid": 78793
+            }, 
+            {
+                "first_aired": "2005-11-04", 
+                "name": "Jenna's American Sex Star", 
+                "tvdbid": 79016
+            }, 
+            {
+                "first_aired": "1982-09-01", 
+                "name": "The Powers of Matthew Star", 
+                "tvdbid": 78295
+            }, 
+            {
+                "first_aired": "2004-10-16", 
+                "name": "I Wanna Be a Soap Star", 
+                "tvdbid": 75040
+            }, 
+            {
+                "first_aired": "1984-07-17", 
+                "name": "Children of the Dog Star", 
+                "tvdbid": 176141
+            }, 
+            {
+                "first_aired": "2008-06-09", 
+                "name": "Nashville Star", 
+                "tvdbid": 82229
+            }, 
+            {
+                "first_aired": "1995-01-16", 
+                "name": "Star Trek: Voyager", 
+                "tvdbid": 74550
+            }, 
+            {
+                "first_aired": "2002-08-01", 
+                "name": "Pet Star", 
+                "tvdbid": 72311
+            }, 
+            {
+                "first_aired": "2000-01-01", 
+                "name": "Star Trek: Hidden Frontier", 
+                "tvdbid": 126401
+            }, 
+            {
+                "first_aired": "2004-09-15", 
+                "name": "Instant Star", 
+                "tvdbid": 74703
+            }, 
+            {
+                "first_aired": "1991-02-03", 
+                "name": "Son of The Morning Star", 
+                "tvdbid": 189831
+            }, 
+            {
+                "first_aired": "2003-02-01", 
+                "name": "Ocean Star", 
+                "tvdbid": 73436
+            }, 
+            {
+                "first_aired": "1982-10-30", 
+                "name": "Star Fleet", 
+                "tvdbid": 70820
+            }, 
+            {
+                "first_aired": "2005-07-11", 
+                "name": "Rock Star", 
+                "tvdbid": 74858
+            }, 
+            {
+                "first_aired": "1976-09-01", 
+                "name": "Star Maidens", 
+                "tvdbid": 78209
+            }, 
+            {
+                "first_aired": "1955-02-01", 
+                "name": "Star Tonight", 
+                "tvdbid": 77257
+            }, 
+            {
+                "first_aired": "2006-09-15", 
+                "name": "Star Stories", 
+                "tvdbid": 81071
+            }, 
+            {
+                "first_aired": "2003-01-01", 
+                "name": "MWL Star", 
+                "tvdbid": 73601
+            }, 
+            {
+                "first_aired": "2003-03-01", 
+                "name": "Kaleido Star", 
+                "tvdbid": 74739
+            }, 
+            {
+                "first_aired": "2005-06-05", 
+                "name": "The Next Food Network Star", 
+                "tvdbid": 82166
+            }, 
+            {
+                "first_aired": "2010-09-20", 
+                "name": "Lone Star", 
+                "tvdbid": 163991
+            }, 
+            {
+                "first_aired": "2001-09-26", 
+                "name": "Star Trek: Enterprise", 
+                "tvdbid": 73893
+            }, 
+            {
+                "first_aired": "2006-02-05", 
+                "name": "Pretty Cure Splash Star", 
+                "tvdbid": 241301
+            }, 
+            {
+                "first_aired": "2007-09-01", 
+                "name": "Star Trek: Odyssey", 
+                "tvdbid": 126391
+            }, 
+            {
+                "first_aired": "2007-03-11", 
+                "name": "My Lucky Star", 
+                "tvdbid": 166161
+            }, 
+            {
+                "first_aired": "2001-10-11", 
+                "name": "Star no Koi", 
+                "tvdbid": 94041
+            }, 
+            {
+                "first_aired": "2008-01-01", 
+                "name": "Star Trek: The Helena Chronicles", 
+                "tvdbid": 126451
+            }, 
+            {
+                "first_aired": "2007-12-22", 
+                "name": "Star Trek: Of Gods and Men", 
+                "tvdbid": 81460
+            }, 
+            {
+                "first_aired": "1998-01-08", 
+                "name": "Outlaw Star", 
+                "tvdbid": 75911
+            }, 
+            {
+                "first_aired": "2007-01-05", 
+                "name": "One Million Star", 
+                "tvdbid": 143551
+            }, 
+            {
+                "first_aired": "2010-10-03", 
+                "name": "Star Driver Kagayaki no Takuto", 
+                "tvdbid": 194951
+            }, 
+            {
+                "first_aired": "2001-04-01", 
+                "name": "Star Ocean EX", 
+                "tvdbid": 79145
+            }, 
+            {
+                "first_aired": "1966-09-08", 
+                "name": "Star Trek", 
+                "tvdbid": 77526
+            }, 
+            {
+                "first_aired": "1987-09-28", 
+                "name": "Star Trek: The Next Generation", 
+                "tvdbid": 71470
+            }, 
+            {
+                "first_aired": "2003-11-01", 
+                "name": "Star Wars: Clone Wars", 
+                "tvdbid": 72244
+            }, 
+            {
+                "first_aired": "1973-09-08", 
+                "name": "Star Trek: The Animated Series", 
+                "tvdbid": 73566
+            }, 
+            {
+                "first_aired": "2003-01-01", 
+                "name": "Star Search (2003)", 
+                "tvdbid": 71731
+            }, 
+            {
+                "first_aired": "1998-11-10", 
+                "name": "The Young Person's Guide to Becoming a Rock Star", 
+                "tvdbid": 77177
+            }, 
+            {
+                "first_aired": "2009-03-13", 
+                "name": "Schlag den Star", 
+                "tvdbid": 202421
+            }, 
+            {
+                "first_aired": null, 
+                "name": "Next Action Star", 
+                "tvdbid": 160081
+            }, 
+            {
+                "first_aired": "2000-10-01", 
+                "name": "Buzz Lightyear of Star Command", 
+                "tvdbid": 72474
+            }, 
+            {
+                "first_aired": null, 
+                "name": "All Star Family Fortunes", 
+                "tvdbid": 157071
+            }, 
+            {
+                "first_aired": "2008-03-31", 
+                "name": "Amuri in Star Ocean", 
+                "tvdbid": 91021
+            }, 
+            {
+                "first_aired": null, 
+                "name": "Atlantis: Secret Star Mappers of a Lost World", 
+                "tvdbid": 147511
+            }, 
+            {
+                "first_aired": "1974-03-05", 
+                "name": "Chobin the Star Child", 
+                "tvdbid": 146491
+            }, 
+            {
+                "first_aired": "2011-06-18", 
+                "name": "Lee Mack's All Star Cast", 
+                "tvdbid": 249619
+            }, 
+            {
+                "first_aired": null, 
+                "name": "All Star Mr & Mrs", 
+                "tvdbid": 81883
+            }, 
+            {
+                "first_aired": "2006-03-13", 
+                "name": "Which Star Are You From?", 
+                "tvdbid": 131631
+            }, 
+            {
+                "first_aired": "2012-07-08", 
+                "name": "All Star World Exam", 
+                "tvdbid": 261118
+            }, 
+            {
+                "first_aired": "2006-10-16", 
+                "name": "Legend Of Star Apple", 
+                "tvdbid": 234231
+            }, 
+            {
+                "first_aired": "2012-07-31", 
+                "name": "HGTV Design Star All Stars", 
+                "tvdbid": 261047
+            }, 
+            {
+                "first_aired": null, 
+                "name": "Everything You Wanted to Know About a Gay Porn Star But Were Afraid to Ask", 
+                "tvdbid": 149641
+            }, 
+            {
+                "first_aired": "1993-08-13", 
+                "name": "Shooting Star Machine Gakusaver", 
+                "tvdbid": 232511
+            }, 
+            {
+                "first_aired": "2003-07-01", 
+                "name": "Shadow Star Narutaru", 
+                "tvdbid": 79061
+            }, 
+            {
+                "first_aired": "2007-11-03", 
+                "name": "Rockman Star Force Tribe", 
+                "tvdbid": 216061
+            }, 
+            {
+                "first_aired": "1988-01-17", 
+                "name": "Earth Star Voyager", 
+                "tvdbid": 137441
+            }, 
+            {
+                "first_aired": "1955-09-01", 
+                "name": "Ford Star Jubilee", 
+                "tvdbid": 78578
+            }, 
+            {
+                "first_aired": "2011-07-26", 
+                "name": "LEGO Star Wars", 
+                "tvdbid": 250498
+            }, 
+            {
+                "first_aired": "2008-10-02", 
+                "name": "Legends of the Dark King: A Fist of the North Star Story", 
+                "tvdbid": 85094
+            }, 
+            {
+                "first_aired": "2009-03-12", 
+                "name": "I've Never Seen Star Wars", 
+                "tvdbid": 85811
+            }, 
+            {
+                "first_aired": "2011-02-27", 
+                "name": "All Star Glam Exam", 
+                "tvdbid": 248965
+            }, 
+            {
+                "first_aired": "1977-09-10", 
+                "name": "Scooby's All Star Laff-A-Lympics", 
+                "tvdbid": 78328
+            }, 
+            {
+                "first_aired": "2012-01-24", 
+                "name": "All Star Dealers", 
+                "tvdbid": 255185
+            }, 
+            {
+                "first_aired": "2004-01-09", 
+                "name": "Ich bin ein Star, holt mich hier raus!", 
+                "tvdbid": 222811
+            }, 
+            {
+                "first_aired": "2011-10-23", 
+                "name": "Boku To Star No 99 Nichi", 
+                "tvdbid": 254060
+            }, 
+            {
+                "first_aired": "1984-10-07", 
+                "name": "Saber Rider and the Star Sheriffs", 
+                "tvdbid": 70525
+            }, 
+            {
+                "first_aired": "1978-09-01", 
+                "name": "Jason of Star Command", 
+                "tvdbid": 77394
+            }, 
+            {
+                "first_aired": "1952-09-01", 
+                "name": "Four Star Playhouse", 
+                "tvdbid": 76740
+            }, 
+            {
+                "first_aired": "1952-10-01", 
+                "name": "Ford Theatre: All Star Theatre", 
+                "tvdbid": 74408
+            }
+        ]
+    }, 
+    "message": "", 
+    "result": "success"
+}
