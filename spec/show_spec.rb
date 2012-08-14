@@ -149,4 +149,12 @@ describe SickBeard::Show do
       show.update.should == 'Farscape has queued to be updated'
     end
   end
+
+  describe "#refresh" do
+    it "should refresh a show in SickBeard by pulling down information from TVDB and rescan local files." do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.refresh&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('show_refresh'))
+      show.refresh.should == 'Farscape has queued to be refreshed'
+    end
+  end
 end

@@ -52,5 +52,13 @@ module SickBeard
     def show(show_id)
       Show.from_response(self, show_id, make_json_request('show', tvdbid: show_id)['data'])
     end
+
+    # Search for Shows by name
+    # @param [String] name the show to match on.
+    def searchtvdb(name)
+      make_json_request('sb.searchtvdb', name: name)['data']['results'].collect do |result|
+        Show.from_response(self, result['tvdbid'], name: result['name'])
+      end
+    end
   end
 end

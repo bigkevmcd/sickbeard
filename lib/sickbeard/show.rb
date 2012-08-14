@@ -127,5 +127,9 @@ module SickBeard
       @server.make_json_request('show.update', tvdbid: @tvdbid)['message']
     end
 
+    #  Refresh a show in SickBeard by rescanning local files.
+    def refresh
+      @server.make_json_request('show.refresh', tvdbid: @tvdbid)['message']
+    end
   end
 end

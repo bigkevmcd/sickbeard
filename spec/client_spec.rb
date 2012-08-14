@@ -114,20 +114,13 @@ describe SickBeard::Client do
     end
   end
 
-  describe "#get_show_by_name" do
-    it "should find a single show and load it." do
-      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=sb.searchtvdb&name=Leverage').
-        to_return(:status => 200, :body => load_fixture('sb_searchtvdb_1'))
-      show = sickbeard.get_show_by_name('Leverage')
-      show.should be_an_instance_of SickBeard::Show
-      show.name.should == 'Leverage'
-      show.tvdbid.should == 82339
-    end
-
-    it "should raise an error if there are multiple show matches" do
+  describe "#searchtvdb" do
+    it "should search the tv db by name" do
       stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=sb.searchtvdb&name=Star').
         to_return(:status => 200, :body => load_fixture('sb_searchtvdb_2'))
-      expect { sickbeard.get_show_by_name('Star') }.to raise_error(SickBeard::Error)
+      result = sickbeard.searchtvdb('Star')
+      result.length.should == 94
+      result[0].should be_an_instance_of SickBeard::Show
     end
   end
 end
