@@ -21,7 +21,7 @@ module SickBeard
 
     def self.from_response(server, tvdbid, response)
       options = {
-        name: response['show_name'],
+        name: response['show_name'] || response['name'],
         genres: response['genre'],
         status: response['status'],
         season_list: response['season_list'],
