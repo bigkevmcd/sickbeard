@@ -121,6 +121,7 @@ describe SickBeard::Client do
       result = sickbeard.searchtvdb('Star')
       result.length.should == 94
       result[0].should be_an_instance_of SickBeard::Show
+      result[0].name.should == 'Fist of the North Star'
     end
   end
 end
