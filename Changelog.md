@@ -1,5 +1,9 @@
 # SickBeard Gem Changelog
 
+## 0.0.5 - 2012/09/15
+
+ * Fix for issue #1
+
 ## 0.0.4 - 2012/08/14
 
 * Ensure that if we load all shows, we get the season_list from the server if
