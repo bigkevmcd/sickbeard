@@ -1,5 +1,9 @@
 # SickBeard Gem Changelog
 
+## 0.0.6 - 2012/09/18
+
+ * Add #addnew and #delete methods to Show from work by nickmeessen.
+
 ## 0.0.5 - 2012/09/15
 
  * Fix for issue #1
