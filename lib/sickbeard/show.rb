@@ -54,10 +54,10 @@ module SickBeard
 
     # Add this show to SickBeard to be tracked.
     # @param [Hash] Options to be passed (location, lang, season_folder, status, initial, archive)
-    def track(options = {})
+    def addnew(options = {})
 
-      options[:initial] = [*(options[:initial] || [])].join('|')
-      options[:archive] = [*(options[:archive] || [])].join('|')
+      options[:initial] = [*(options[:initial] || [])].join('|') if options[:initial]
+      options[:archive] = [*(options[:archive] || [])].join('|') if options[:archive]
       
       options = { tvdbid: @tvdbid }.merge(options)
 
@@ -65,7 +65,7 @@ module SickBeard
     end
 
     # Remove this show from SickBeard.
-    def untrack
+    def delete
       @server.make_json_request('show.delete', tvdbid: @tvdbid)['message']
     end
 

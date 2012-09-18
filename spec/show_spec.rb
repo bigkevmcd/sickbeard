@@ -157,4 +157,50 @@ describe SickBeard::Show do
       show.refresh.should == 'Farscape has queued to be refreshed'
     end
   end
+
+  describe "#addnew" do
+    it "should add a show to SickBeard." do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.addnew&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('show_addnew'))
+      show.addnew.should == 'Farscape has been queued to be added'
+    end
+    it "should pass the season_folder option if provided." do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.addnew&season_folder=1&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('show_addnew'))
+      show.addnew(season_folder: 1).should == 'Farscape has been queued to be added'
+    end
+    it "should pass the location option if provided." do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.addnew&location=/storage/videos/&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('show_addnew'))
+      show.addnew(location: '/storage/videos/').should == 'Farscape has been queued to be added'
+    end
+    it "should pass the status option if provided" do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.addnew&status=wanted&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('show_addnew'))
+      show.addnew(status: 'wanted').should == 'Farscape has been queued to be added'
+    end
+    it "should pass the lang option if provided" do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.addnew&lang=nl&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('show_addnew'))
+      show.addnew(lang: 'nl').should == 'Farscape has been queued to be added'
+    end
+    it "should correctly pass initial options if provided." do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.addnew&initial=sdtv%7Chdtv&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('show_addnew'))
+      show.addnew(initial: ['sdtv','hdtv']).should == 'Farscape has been queued to be added'
+    end
+    it "should correctly pass archive options if provided." do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.addnew&archive=sdtv%7Chdtv&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('show_addnew'))
+      show.addnew(archive: ['sdtv','hdtv']).should == 'Farscape has been queued to be added'
+    end
+  end
+
+  describe "#delete" do
+    it "should remove a show from SickBeard." do
+      stub_request(:get, 'http://example.com/api/3095c1a9ac3f9bf4f4d47295904ce631/?cmd=show.delete&tvdbid=70522').
+        to_return(:status => 200, :body => load_fixture('show_delete'))
+      show.delete.should == 'Farscape has been deleted'
+    end
+  end
 end
