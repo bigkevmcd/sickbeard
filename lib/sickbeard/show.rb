@@ -39,10 +39,10 @@ module SickBeard
     def initialize(options = {})
 
       options = { name: '',
-                  genres: '',
-                  status: '',
-                  season_list: [],
-                  }.merge(options)
+        genres: '',
+        status: '',
+        season_list: [],
+      }.merge(options)
       @name = options[:name]
       @genres = options[:genres]
       @status = options[:status]
@@ -58,7 +58,7 @@ module SickBeard
 
       options[:initial] = [*(options[:initial] || [])].join('|') if options[:initial]
       options[:archive] = [*(options[:archive] || [])].join('|') if options[:archive]
-      
+
       options = { tvdbid: @tvdbid }.merge(options)
 
       @server.make_json_request('show.addnew', options)['message']

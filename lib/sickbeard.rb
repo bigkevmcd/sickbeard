@@ -13,8 +13,8 @@ module SickBeard
     def initialize(options = {})
 
       options = { api_key: '',
-                  server: '',
-                  }.merge(options)
+        server: '',
+      }.merge(options)
 
       @server = options[:server]
       @api_key = options[:api_key]
