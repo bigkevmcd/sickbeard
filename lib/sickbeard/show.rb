@@ -52,6 +52,23 @@ module SickBeard
       @quality = options[:quality]
     end
 
+    # Add this show to SickBeard to be tracked.
+    # @param [Hash] Options to be passed (location, lang, season_folder, status, initial, archive)
+    def track(options = {})
+
+      options[:initial] = [*(options[:initial] || [])].join('|')
+      options[:archive] = [*(options[:archive] || [])].join('|')
+      
+      options = { tvdbid: @tvdbid }.merge(options)
+
+      @server.make_json_request('show.addnew', options)['message']
+    end
+
+    # Remove this show from SickBeard.
+    def untrack
+      @server.make_json_request('show.delete', tvdbid: @tvdbid)['message']
+    end
+
     # Retrieve a listing of episodes for all or a given season.
     # @param [Integer] season optional if provided, fetch only episodes for
     #  the provided season otherwise pulls details down for every season of the how.
