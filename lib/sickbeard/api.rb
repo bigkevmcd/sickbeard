@@ -21,10 +21,22 @@ module SickBeard
     #   * today - show's date is today
     #   * soon - show's date greater than today but less than a week
     #   * later - show's date greater than a week
-    # @return [Object] the object.
+    # @return [Array<Episode>]
     def future(options = {})
       filter = (options[:type] || []).join('|')
-      make_json_request('future', type: filter, sort: options[:sort])['data']
+      upcoming = make_json_request('future', type: filter, sort: options[:sort])['data']
+      episodes = {}
+      upcoming.keys.each do |section|
+        episodes[section] = []
+        upcoming[section].collect do |item|
+          # {"airdate"=>"2012-08-25", "airs"=>"Saturday 7:00 PM", "ep_name"=>"Asylum Of The Daleks", 
+          #  "ep_plot"=>"", "episode"=>1, "network"=>"BBC One", "paused"=>0, "quality"=>"SD", "season"=>7,
+          # "show_name"=>"Doctor Who (2005)", "show_status"=>"Continuing", "tvdbid"=>78804, "weekday"=>6}
+          show = Show.new(tvdbid: item['tvdbid'], name: item['show_name'])
+          episodes[section].push Episode.new({airdate: item['airdate'], name: item['item_name'], episode: item['episode'], show: show, season: item['season']})
+        end
+      end
+      return episodes
     end
 
     # Returns global episode and show statistics.

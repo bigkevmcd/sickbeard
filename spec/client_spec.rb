@@ -33,6 +33,8 @@ describe SickBeard::Client do
         to_return(:status => 200, :body => load_fixture('future_1'))
       response = sickbeard.future
       response.keys.should == ['later', 'missed', 'soon', 'today']
+      episode = response['later'][0]
+      episode.should be_an_instance_of SickBeard::Episode
     end
 
     it "should return a list of upcoming TV shows for today" do

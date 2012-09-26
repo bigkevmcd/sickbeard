@@ -1,5 +1,15 @@
 module SickBeard
 
+
+  class Episode
+    def initialize(options = {})
+      @airdate = options[:airdate]
+      @name = options[:item_name]
+      @episode = options[:episode]
+      @show = options[:show]
+    end
+  end
+
   class Show
     # @!attribute [r] name
     #   @return [String] the name of the Show
