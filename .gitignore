@@ -15,4 +15,19 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
+
+# RVM
 .rvmrc
+.ruby-gemset
+.ruby-version
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+
+# OSX artifacts
+.DS_Store
+
+# RubyMine
+.idea/
